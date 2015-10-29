@@ -82,7 +82,6 @@ namespace ndn {
           break;
         }
         
-        
         offset += block.size();
        
         nfd::FaceStatus faceStatus(block);
@@ -126,14 +125,12 @@ namespace ndn {
         }
         if(!foundExisting)
         {
-                           std::cout << "AFTER4 fetchFaceStatusInformation " << std::endl;
           FaceStatus linkStatus;
           linkStatus.setTx(faceStatus.getNOutBytes());
           linkStatus.setRx(faceStatus.getNInBytes());
           linkStatus.setFaceId(faceStatus.getFaceId());
           linkStatus.setLinkIp(remoteIp);
           linkStatus.setTimestamp(currentTime);
-                           std::cout << "AFTER5 fetchFaceStatusInformation " << std::endl;
           // remove the remoteIP from the list of links to search and add it to the data packet
           // Comment the next line to enable multiple links for the same IP
           // m_remoteLinks.erase(remoteIp);
@@ -155,30 +152,6 @@ namespace ndn {
         m_face.put(*data);
       }
     }
-    /*
-    void
-    fetchSegments(const Data& data, const shared_ptr<OBufferStream>& buffer, Name& remoteName,
-                  void (NdnMapClient::*onDone)(const shared_ptr<OBufferStream>&, const Name& ))
-    {
-      buffer->write(reinterpret_cast<const char*>(data.getContent().value()),
-                    data.getContent().value_size());
-      
-      uint64_t currentSegment = data.getName().get(-1).toSegment();
-      
-      const name::Component& finalBlockId = data.getMetaInfo().getFinalBlockId();
-      if (finalBlockId.empty() ||
-          finalBlockId.toSegment() > currentSegment)
-      {
-        m_face.expressInterest(data.getName().getPrefix(-1).appendSegment(currentSegment+1),
-                               bind(&NdnMapClient::fetchSegments, this, _2, buffer, remoteName, onDone),
-                               bind(&NdnMapClient::onTimeout, this, _1));
-      }
-      else
-      {
-        return (this->*onDone)(buffer,remoteName);
-      }
-    }
-     */
     void
     fetchFaceStatusInformation(Name& remoteInterestName)
     {
@@ -188,17 +161,10 @@ namespace ndn {
       interest.setChildSelector(0);
       interest.setMustBeFresh(true);
       
-/*      m_face.expressInterest(interest,
-                             bind(&NdnMapClient::fetchSegments, this, _2, buffer, remoteInterestName,
-                                  &NdnMapClient::afterFetchedFaceStatusInformation),
-                             bind(&NdnMapClient::onTimeout, this, _1));
-  */
       SegmentFetcher::fetch(m_face, interest,
                             util::DontVerifySegment(),
                             bind(&NdnMapClient::afterFetchedFaceStatusInformation, this, _1, remoteInterestName),
                             bind(&NdnMapClient::onErrorFetch, this, _1, _2));
-      
-      m_face.processEvents(time::milliseconds(100));
     }
 
     void
@@ -271,7 +237,6 @@ namespace ndn {
       return m_prefixFilter;
     }
   private:
-//    boost::asio::io_service ioService;
     std::string m_programName;
     std::string m_prefixFilter;
     std::unordered_set<std::string> m_remoteLinks;
