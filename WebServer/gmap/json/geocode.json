@@ -137,7 +137,8 @@
         "shortname": "URJC",
         "site": "http://193.147.51.186:80/",
         "backbone": false,
-        "position": [ 40.3359, -3.8732]
+        "_real_position": [ 40.3359, -3.8732],
+        "position": [ 41.3359, -3.8732]
     },
     "BASEL": {
         "name": "University of Basel",
@@ -202,5 +203,12 @@
         "site": "http://129.241.208.115:80/",
         "backbone": false,
         "position": [ 63.5, 10.5]
+    },
+    "LUSOFONA": {
+        "name": "University Lusofona",
+        "shortname": "LUSOFONA",
+        "site": "http://193.137.75.171:80/",
+        "backbone": false,
+        "position": [ 38.6, -9.0]
     }
 }

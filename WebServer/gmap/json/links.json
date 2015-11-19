@@ -394,5 +394,23 @@
         "nlsr_weight": 16,
         "start": "CSU",
         "end": "KISTI"
+    },
+    {
+        "id": 68,
+        "nlsr_weight": 13,
+        "start": "LUSOFONA",
+        "end": "URJC"
+    },
+    {
+        "id": 69,
+        "nlsr_weight": 23,
+        "start": "LUSOFONA",
+        "end": "PADUA"
+    },
+    {
+        "id": 70,
+        "nlsr_weight": 21,
+        "start": "LUSOFONA",
+        "end": "LIP6"
     }
 ]
