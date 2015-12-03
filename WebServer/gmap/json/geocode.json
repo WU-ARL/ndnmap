@@ -203,5 +203,12 @@
         "site": "http://193.137.75.171:80/",
         "backbone": false,
         "position": [ 38.6, -9.0]
+    },
+    "UINDONESIA": {
+        "name": "University of Indonesia",
+        "shortname": "UINDONESIA",
+        "site": "http://152.118.148.103:80/",
+        "backbone": false,
+        "position": [ -6.0, 106.8 ]
     }
 }

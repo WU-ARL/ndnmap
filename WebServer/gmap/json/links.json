@@ -412,5 +412,23 @@
         "nlsr_weight": 21,
         "start": "COPELABS",
         "end": "LIP6"
+    },
+    {
+        "id": 71,
+        "nlsr_weight": 21,
+        "start": "BUPT",
+        "end": "UINDONESIA"
+    },
+    {
+        "id": 72,
+        "nlsr_weight": 21,
+        "start": "TONGJI",
+        "end": "UINDONESIA"
+    },
+    {
+        "id": 73,
+        "nlsr_weight": 21,
+        "start": "WASEDA",
+        "end": "UINDONESIA"
     }
 ]
