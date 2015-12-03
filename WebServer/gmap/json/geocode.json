@@ -190,13 +190,6 @@
         "backbone": false,
         "position": [ 38.14907010, -77.5 ]
     },
-    "VIENNA": {
-        "name": "Vienna University of Technology",
-        "shortname": "Vienna",
-        "site": "http://128.252.153.194:80/",
-        "backbone": false,
-        "position": [ 48.1, 16.2]
-    },
     "NTNU": {
         "name": "Norwegian University of Science and Technology",
         "shortname": "NTNU",
@@ -204,9 +197,9 @@
         "backbone": false,
         "position": [ 63.5, 10.5]
     },
-    "LUSOFONA": {
-        "name": "University Lusofona",
-        "shortname": "LUSOFONA",
+    "COPELABS": {
+        "name": "COPELABS, University Lusofona",
+        "shortname": "COPELABS",
         "site": "http://193.137.75.171:80/",
         "backbone": false,
         "position": [ 38.6, -9.0]
