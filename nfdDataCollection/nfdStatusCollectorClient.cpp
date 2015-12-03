@@ -10,6 +10,7 @@
 #include <ndn-cxx/encoding/buffer-stream.hpp>
 #include <unordered_set>
 #include <ndn-cxx/security/key-chain.hpp>
+#include <ndn-cxx/util/segment-fetcher.hpp>
 #include "nfdStatusCollector.hpp"
 
 #define APP_SUFFIX "/ndnmap/stats"
@@ -18,6 +19,9 @@
 int DEBUG = 0;
 
 namespace ndn {
+  
+  using util::SegmentFetcher;
+  
   class NdnMapClient
   {
   public:
@@ -43,18 +47,14 @@ namespace ndn {
     }
     
     void
-    onTimeout(const Interest& interest)
+    onErrorFetch(uint32_t errorCode, const std::string& errorMsg)
     {
-      std::cout << "onTimeout" << std::endl;
+      std::cerr << "Error code:" << errorCode << ", message:" << errorMsg << std::endl;
     }
+    
     void
-    afterFetchedFaceStatusInformation(const shared_ptr<OBufferStream>& buffer, const Name& remoteName)
+    afterFetchedFaceStatusInformation(const ConstBufferPtr& buf, const Name& remoteName)
     {
-      ConstBufferPtr buf = buffer->buf();
-      
-      Block block;
-      size_t offset = 0;
-      
       std::string currentTime;
       std::tm ctime;
       std::stringstream realEpochTime;
@@ -69,33 +69,31 @@ namespace ndn {
       realEpochTime << realEpochSeconds << "." << realEpochMilli;
 
       CollectorData content;
-//      if (DEBUG)
-//      {
-//        std::cout << "'real' currentTime" << currentTimeStr << std::endl;;
-//        std::cout << "real epochTime: " << realEpochTime.str().c_str() << std::endl;
-//      }
       currentTime =  realEpochTime.str();
-
+      
+      size_t offset = 0;
       while (offset < buf->size())
       {
-        bool ok = Block::fromBuffer(buf, offset, block);
-        if (!ok)
-        {
+        bool isOk = false;
+        Block block;
+        std::tie(isOk, block) = Block::fromBuffer(buf, offset);
+        if (!isOk) {
           std::cerr << "ERROR: cannot decode FaceStatus TLV" << std::endl;
           break;
         }
         
         offset += block.size();
-        
+       
         nfd::FaceStatus faceStatus(block);
-        
+       
         // take only udp4 and tcp4 faces at the moment
         std::string remoteUri = faceStatus.getRemoteUri();
         
         if(remoteUri.compare(0,4,"tcp4") != 0 &&
            remoteUri.compare(0,4,"udp4") != 0)
           continue;
-        
+
+       
         // take the ip from uri (remove tcp4:// and everything after ':'
         std::size_t strPos = remoteUri.find_last_of(":");
         std::string remoteIp = remoteUri.substr(7,strPos - 7);
@@ -105,7 +103,7 @@ namespace ndn {
         // the link is not requested by the server
         if(got == m_remoteLinks.end())
           continue;
-        
+       
         bool foundExisting = false;
         // first, check if the link already exists in the
         for (std::vector<FaceStatus>::iterator it = content.m_statusList.begin() ; it != content.m_statusList.end(); ++it)
@@ -133,7 +131,6 @@ namespace ndn {
           linkStatus.setFaceId(faceStatus.getFaceId());
           linkStatus.setLinkIp(remoteIp);
           linkStatus.setTimestamp(currentTime);
-          
           // remove the remoteIP from the list of links to search and add it to the data packet
           // Comment the next line to enable multiple links for the same IP
           // m_remoteLinks.erase(remoteIp);
@@ -156,28 +153,6 @@ namespace ndn {
       }
     }
     void
-    fetchSegments(const Data& data, const shared_ptr<OBufferStream>& buffer, Name& remoteName,
-                  void (NdnMapClient::*onDone)(const shared_ptr<OBufferStream>&, const Name& ))
-    {
-      buffer->write(reinterpret_cast<const char*>(data.getContent().value()),
-                    data.getContent().value_size());
-      
-      uint64_t currentSegment = data.getName().get(-1).toSegment();
-      
-      const name::Component& finalBlockId = data.getMetaInfo().getFinalBlockId();
-      if (finalBlockId.empty() ||
-          finalBlockId.toSegment() > currentSegment)
-      {
-        m_face.expressInterest(data.getName().getPrefix(-1).appendSegment(currentSegment+1),
-                               bind(&NdnMapClient::fetchSegments, this, _2, buffer, remoteName, onDone),
-                               bind(&NdnMapClient::onTimeout, this, _1));
-      }
-      else
-      {
-        return (this->*onDone)(buffer,remoteName);
-      }
-    }
-    void
     fetchFaceStatusInformation(Name& remoteInterestName)
     {
       shared_ptr<OBufferStream> buffer = make_shared<OBufferStream>();
@@ -186,12 +161,10 @@ namespace ndn {
       interest.setChildSelector(0);
       interest.setMustBeFresh(true);
       
-      m_face.expressInterest(interest,
-                             bind(&NdnMapClient::fetchSegments, this, _2, buffer, remoteInterestName,
-                                  &NdnMapClient::afterFetchedFaceStatusInformation),
-                             bind(&NdnMapClient::onTimeout, this, _1));
-      
-      m_face.processEvents(time::milliseconds(100));
+      SegmentFetcher::fetch(m_face, interest,
+                            util::DontVerifySegment(),
+                            bind(&NdnMapClient::afterFetchedFaceStatusInformation, this, _1, remoteInterestName),
+                            bind(&NdnMapClient::onErrorFetch, this, _1, _2));
     }
 
     void
@@ -264,7 +237,6 @@ namespace ndn {
       return m_prefixFilter;
     }
   private:
-//    boost::asio::io_service ioService;
     std::string m_programName;
     std::string m_prefixFilter;
     std::unordered_set<std::string> m_remoteLinks;
