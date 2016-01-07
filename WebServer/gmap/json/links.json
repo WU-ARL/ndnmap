@@ -430,5 +430,29 @@
         "nlsr_weight": 21,
         "start": "WASEDA",
         "end": "UI"
+    },
+    {
+        "id": 74,
+        "nlsr_weight": 21,
+        "start": "SYSTEMX",
+        "end": "GOETTINGEN"
+    },
+    {
+        "id": 75,
+        "nlsr_weight": 21,
+        "start": "BASEL",
+        "end": "GOETTINGEN"
+    },
+    {
+        "id": 76,
+        "nlsr_weight": 21,
+        "start": "PADUA",
+        "end": "GOETTINGEN"
+    },
+    {
+        "id": 77,
+        "nlsr_weight": 21,
+        "start": "NTNU",
+        "end": "GOETTINGEN"
     }
 ]

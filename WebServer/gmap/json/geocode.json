@@ -210,5 +210,12 @@
         "site": "http://152.118.148.103:80/",
         "backbone": false,
         "position": [ -6.0, 106.8 ]
+    },
+    "GOETTINGEN": {
+        "name": "Goettingen University ",
+        "shortname": "GOETTINGEN",
+        "site": "http://134.76.249.235:80/",
+        "backbone": false,
+        "position": [ 52.05858, 9.58360]
     }
 }
