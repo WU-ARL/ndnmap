@@ -417,18 +417,18 @@
         "id": 71,
         "nlsr_weight": 21,
         "start": "BUPT",
-        "end": "UINDONESIA"
+        "end": "UI"
     },
     {
         "id": 72,
         "nlsr_weight": 21,
         "start": "TONGJI",
-        "end": "UINDONESIA"
+        "end": "UI"
     },
     {
         "id": 73,
         "nlsr_weight": 21,
         "start": "WASEDA",
-        "end": "UINDONESIA"
+        "end": "UI"
     }
 ]
