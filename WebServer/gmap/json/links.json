@@ -454,5 +454,29 @@
         "nlsr_weight": 21,
         "start": "NTNU",
         "end": "GOETTINGEN"
+    },
+    {
+        "id": 78,
+        "nlsr_weight": 21,
+        "start": "WASEDA",
+        "end": "OSAKA"
+    },
+    {
+        "id": 79,
+        "nlsr_weight": 21,
+        "start": "GOETTINGEN",
+        "end": "OSAKA"
+    },
+    {
+        "id": 80,
+        "nlsr_weight": 21,
+        "start": "ANYANG",
+        "end": "OSAKA"
+    },
+    {
+        "id": 81,
+        "nlsr_weight": 21,
+        "start": "TONGJI",
+        "end": "OSAKA"
     }
 ]
