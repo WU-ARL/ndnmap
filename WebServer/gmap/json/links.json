@@ -417,18 +417,66 @@
         "id": 71,
         "nlsr_weight": 21,
         "start": "BUPT",
-        "end": "UINDONESIA"
+        "end": "UI"
     },
     {
         "id": 72,
         "nlsr_weight": 21,
         "start": "TONGJI",
-        "end": "UINDONESIA"
+        "end": "UI"
     },
     {
         "id": 73,
         "nlsr_weight": 21,
         "start": "WASEDA",
-        "end": "UINDONESIA"
+        "end": "UI"
+    },
+    {
+        "id": 74,
+        "nlsr_weight": 21,
+        "start": "SYSTEMX",
+        "end": "GOETTINGEN"
+    },
+    {
+        "id": 75,
+        "nlsr_weight": 21,
+        "start": "BASEL",
+        "end": "GOETTINGEN"
+    },
+    {
+        "id": 76,
+        "nlsr_weight": 21,
+        "start": "PADUA",
+        "end": "GOETTINGEN"
+    },
+    {
+        "id": 77,
+        "nlsr_weight": 21,
+        "start": "NTNU",
+        "end": "GOETTINGEN"
+    },
+    {
+        "id": 78,
+        "nlsr_weight": 5,
+        "start": "WASEDA",
+        "end": "OSAKA"
+    },
+    {
+        "id": 79,
+        "nlsr_weight": 136,
+        "start": "GOETTINGEN",
+        "end": "OSAKA"
+    },
+    {
+        "id": 80,
+        "nlsr_weight": 36,
+        "start": "ANYANG",
+        "end": "OSAKA"
+    },
+    {
+        "id": 81,
+        "nlsr_weight": 63,
+        "start": "TONGJI",
+        "end": "OSAKA"
     }
 ]

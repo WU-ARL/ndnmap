@@ -11,7 +11,9 @@
 #include <unordered_set>
 #include <ndn-cxx/security/key-chain.hpp>
 #include <ndn-cxx/util/segment-fetcher.hpp>
+#include <ndn-cxx/security/validator-null.hpp>
 #include "nfdStatusCollector.hpp"
+
 
 #define APP_SUFFIX "/ndnmap/stats"
 
@@ -162,7 +164,7 @@ namespace ndn {
       interest.setMustBeFresh(true);
       
       SegmentFetcher::fetch(m_face, interest,
-                            util::DontVerifySegment(),
+                            m_validator,
                             bind(&NdnMapClient::afterFetchedFaceStatusInformation, this, _1, remoteInterestName),
                             bind(&NdnMapClient::onErrorFetch, this, _1, _2));
     }
@@ -243,6 +245,8 @@ namespace ndn {
     int m_pollPeriod;
     Face m_face;
     KeyChain m_keyChain;
+    
+    ndn::ValidatorNull m_validator;
   };
 } // namespace ndn
 

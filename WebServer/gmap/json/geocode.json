@@ -98,7 +98,7 @@
         "site": "http://114.247.165.44:80/",
         "backbone": false,
         "_real_position": [ 39.59, 116.18 ],
-        "position": [ 37.59, 114.18 ]
+        "position": [ 37.40, 114.18 ]
     },
     "TONGJI": {
         "name": "Tongji University",
@@ -152,7 +152,8 @@
         "shortname": "WASEDA",
         "site": "http://133.9.73.66:80/",
         "backbone": false,
-        "position": [ 35.7092, 139.7193]
+        "_real_position": [ 35.7092, 139.7193],
+        "position": [ 35.8092, 139.7193]
     },
     "BYU": {
         "name": "Brigham Young University",
@@ -204,11 +205,26 @@
         "backbone": false,
         "position": [ 38.6, -9.0]
     },
-    "UINDONESIA": {
+    "UI": {
         "name": "University of Indonesia",
-        "shortname": "UINDONESIA",
+        "shortname": "UI",
         "site": "http://152.118.148.103:80/",
         "backbone": false,
         "position": [ -6.0, 106.8 ]
+    },
+    "GOETTINGEN": {
+        "name": "Goettingen University ",
+        "shortname": "GOETTINGEN",
+        "site": "http://134.76.249.235:80/",
+        "backbone": false,
+        "position": [ 52.05858, 9.58360]
+    },
+    "OSAKA": {
+        "name": "Osaka University",
+        "shortname": "OSAKA",
+        "site": "http://133.1.17.51:80/",
+        "backbone": false,
+        "position": [ 34.3, 135.7193],
+        "_real_position": [ 34.72, 135.5193]
     }
 }
