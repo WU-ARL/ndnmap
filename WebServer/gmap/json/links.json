@@ -481,25 +481,25 @@
     },
     {
         "id": 82,
-        "nlsr_weight": 63,
+        "nlsr_weight": 4,
         "start": "COPELABS",
         "end": "MINHO"
     },
     {
         "id": 83,
-        "nlsr_weight": 63,
+        "nlsr_weight": 23,
         "start": "BASEL",
         "end": "MINHO"
     },
     {
         "id": 84,
-        "nlsr_weight": 63,
+        "nlsr_weight": 26,
         "start": "PADUA",
         "end": "MINHO"
     },
     {
         "id": 85,
-        "nlsr_weight": 63,
+        "nlsr_weight": 13,
         "start": "URJC",
         "end": "MINHO"
     }
