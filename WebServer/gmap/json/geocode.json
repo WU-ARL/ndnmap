@@ -226,5 +226,12 @@
         "backbone": false,
         "position": [ 34.3, 135.7193],
         "_real_position": [ 34.72, 135.5193]
+    },
+    "MINHO": {
+        "name": "University oh Minho",
+        "shortname": "MINHO",
+        "site": "http://netlab.gcom.di.uminho.pt:80/",
+        "backbone": false,
+        "position": [ 41.8, -8.2]
     }
 }

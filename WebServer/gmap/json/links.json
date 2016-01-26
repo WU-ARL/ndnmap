@@ -478,5 +478,29 @@
         "nlsr_weight": 63,
         "start": "TONGJI",
         "end": "OSAKA"
+    },
+    {
+        "id": 82,
+        "nlsr_weight": 63,
+        "start": "COPELABS",
+        "end": "MINHO"
+    },
+    {
+        "id": 83,
+        "nlsr_weight": 63,
+        "start": "BASEL",
+        "end": "MINHO"
+    },
+    {
+        "id": 84,
+        "nlsr_weight": 63,
+        "start": "PADUA",
+        "end": "MINHO"
+    },
+    {
+        "id": 85,
+        "nlsr_weight": 63,
+        "start": "URJC",
+        "end": "MINHO"
     }
 ]
