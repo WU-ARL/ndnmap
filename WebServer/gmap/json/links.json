@@ -502,5 +502,29 @@
         "nlsr_weight": 13,
         "start": "URJC",
         "end": "MINHO"
+    },
+    {
+        "id": 86,
+        "nlsr_weight": 13,
+        "start": "NIST",
+        "end": "VERISIGN"
+    },
+    {
+        "id": 87,
+        "nlsr_weight": 13,
+        "start": "NIST",
+        "end": "NEU"
+    },
+    {
+        "id": 88,
+        "nlsr_weight": 13,
+        "start": "NIST",
+        "end": "MICH"
+    },
+    {
+        "id": 89,
+        "nlsr_weight": 13,
+        "start": "NIST",
+        "end": "UIUC"
     }
 ]

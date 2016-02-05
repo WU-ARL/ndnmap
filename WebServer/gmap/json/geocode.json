@@ -189,7 +189,8 @@
         "shortname": "VERISIGN",
         "site": "http://72.13.58.118:80/",
         "backbone": false,
-        "position": [ 38.14907010, -77.5 ]
+        "_real_position": [ 38.14907010, -77.5 ],
+        "position": [ 38.0, -77.5 ]
     },
     "NTNU": {
         "name": "Norwegian University of Science and Technology",
@@ -233,5 +234,12 @@
         "site": "http://netlab.gcom.di.uminho.pt:80/",
         "backbone": false,
         "position": [ 41.8, -8.2]
+    },
+    "NIST": {
+        "name": "National Institute for Standards and Testing",
+        "shortname": "NIST",
+        "site": "http://0.0.0.0:80/",
+        "backbone": false,
+        "position": [ 39.14907010, -76.5 ]
     }
 }
