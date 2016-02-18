@@ -102,18 +102,6 @@
         "end": "UCLA"
     },
     {
-        "id": 18,
-        "nlsr_weight": 85,
-        "start": "UCLA",
-        "end": "PKU"
-    },
-    {
-        "id": 19,
-        "nlsr_weight": 112,
-        "start": "NEU",
-        "end": "PKU"
-    },
-    {
         "id": 20,
         "nlsr_weight": 1,
         "start": "UCLA",
@@ -130,12 +118,6 @@
         "nlsr_weight": 3,
         "start": "CAIDA",
         "end": "UCI"
-    },
-    {
-        "id": 23,
-        "nlsr_weight": 14,
-        "start": "TONGJI",
-        "end": "PKU"
     },
     {
         "id": 24,
@@ -160,12 +142,6 @@
         "nlsr_weight": 56,
         "start": "UM",
         "end": "ORANGE"
-    },
-    {
-        "id": 28,
-        "nlsr_weight": 14,
-        "start": "PKU",
-        "end": "BUPT"
     },
     {
         "id": 29,
@@ -208,12 +184,6 @@
         "nlsr_weight": 9,
         "start": "BASEL",
         "end": "URJC"
-    },
-    {
-        "id": 36,
-        "nlsr_weight": 127,
-        "start": "BASEL",
-        "end": "PKU"
     },
     {
         "id": 37,
@@ -294,12 +264,6 @@
         "end": "BUPT"
     },
     {
-        "id": 50,
-        "nlsr_weight": 38,
-        "start": "ANYANG",
-        "end": "PKU"
-    },
-    {
         "id": 52,
         "nlsr_weight": 80,
         "start": "UIUC",
@@ -346,12 +310,6 @@
         "nlsr_weight": 30,
         "start": "NTNU",
         "end": "BASEL"
-    },
-    {
-        "id": 60,
-        "nlsr_weight": 107,
-        "start": "NTNU",
-        "end": "PKU"
     },
     {
         "id": 61,

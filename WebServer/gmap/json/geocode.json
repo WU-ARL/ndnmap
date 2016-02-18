@@ -84,14 +84,6 @@
         "_real_position": [ 33.6495, -117.845798 ],
         "position": [ 33.1495, -118.145798 ]
     },
-    "PKU": {
-        "name": "Peking University",
-        "shortname": "PKU",
-        "site": "http://162.105.146.26:80/",
-        "backbone": false,
-        "_real_position": [ 39.59, 116.18 ],
-        "position": [ 40.00, 116.18 ]
-    },
     "BUPT": {
         "name": "Beijing University of Posts and Telecommunications",
         "shortname": "BUPT",
