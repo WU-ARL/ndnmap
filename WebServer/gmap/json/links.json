@@ -484,5 +484,59 @@
         "nlsr_weight": 13,
         "start": "NIST",
         "end": "UIUC"
+    },
+    {
+        "id": 90,
+        "nlsr_weight": 13,
+        "start": "UI",
+        "end": "UFPA"
+    },
+    {
+        "id": 91,
+        "nlsr_weight": 13,
+        "start": "UFPA",
+        "end": "COPELABS"
+    },
+    {
+        "id": 92,
+        "nlsr_weight": 13,
+        "start": "UFPA",
+        "end": "UM"
+    },
+    {
+        "id": 93,
+        "nlsr_weight": 13,
+        "start": "UFPA",
+        "end": "UA"
+    },
+    {
+        "id": 94,
+        "nlsr_weight": 13,
+        "start": "SRRU",
+        "end": "PADUA"
+    },
+    {
+        "id": 95,
+        "nlsr_weight": 13,
+        "start": "SRRU",
+        "end": "UI"
+    },
+    {
+        "id": 96,
+        "nlsr_weight": 13,
+        "start": "SRRU",
+        "end": "OSAKA"
+    },
+    {
+        "id": 97,
+        "nlsr_weight": 13,
+        "start": "SRRU",
+        "end": "BUPT"
+    },
+    {
+        "id": 98,
+        "nlsr_weight": 13,
+        "start": "SRRU",
+        "end": "ANYANG"
     }
 ]
