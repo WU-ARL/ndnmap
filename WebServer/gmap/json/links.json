@@ -312,24 +312,6 @@
         "end": "BASEL"
     },
     {
-        "id": 61,
-        "nlsr_weight": 18,
-        "start": "VERISIGN",
-        "end": "UM"
-    },
-    {
-        "id": 62,
-        "nlsr_weight": 15,
-        "start": "VERISIGN",
-        "end": "WU"
-    },
-    {
-        "id": 63,
-        "nlsr_weight": 16,
-        "start": "VERISIGN",
-        "end": "MICH"
-    },
-    {
         "id": 64,
         "nlsr_weight": 16,
         "start": "KISTI",
@@ -462,12 +444,6 @@
         "end": "MINHO"
     },
     {
-        "id": 86,
-        "nlsr_weight": 13,
-        "start": "NIST",
-        "end": "VERISIGN"
-    },
-    {
         "id": 87,
         "nlsr_weight": 13,
         "start": "NIST",
@@ -507,7 +483,7 @@
         "id": 93,
         "nlsr_weight": 13,
         "start": "UFPA",
-        "end": "UA"
+        "end": "CAIDA"
     },
     {
         "id": 94,

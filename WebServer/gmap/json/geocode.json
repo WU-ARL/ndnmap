@@ -176,14 +176,6 @@
         "backbone": false,
         "position": [ 45.35858, 11.78360]
     },
-    "VERISIGN": {
-        "name": "Verisign",
-        "shortname": "VERISIGN",
-        "site": "http://72.13.58.118:80/",
-        "backbone": false,
-        "_real_position": [ 38.14907010, -77.5 ],
-        "position": [ 38.0, -77.5 ]
-    },
     "NTNU": {
         "name": "Norwegian University of Science and Technology",
         "shortname": "NTNU",
