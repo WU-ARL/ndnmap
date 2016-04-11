@@ -514,5 +514,11 @@
         "nlsr_weight": 13,
         "start": "SRRU",
         "end": "ANYANG"
+    },
+    {
+        "id": 99,
+        "nlsr_weight": 38,
+        "start": "KISTI",
+        "end": "UI"
     }
 ]
