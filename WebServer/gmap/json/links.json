@@ -463,25 +463,25 @@
     },
     {
         "id": 90,
-        "nlsr_weight": 13,
+        "nlsr_weight": 235,
         "start": "UI",
         "end": "UFPA"
     },
     {
         "id": 91,
-        "nlsr_weight": 13,
+        "nlsr_weight": 145,
         "start": "UFPA",
         "end": "COPELABS"
     },
     {
         "id": 92,
-        "nlsr_weight": 13,
+        "nlsr_weight": 115,
         "start": "UFPA",
         "end": "UM"
     },
     {
         "id": 93,
-        "nlsr_weight": 13,
+        "nlsr_weight": 155,
         "start": "UFPA",
         "end": "CAIDA"
     },
