@@ -10,7 +10,6 @@
     "WU",
     "MICH",
     "UCI",
-    "PKU",
     "TONGJI",
     "LIP6",
     "ORANGE",
@@ -23,10 +22,13 @@
     "ANYANG",
     "KISTI",
     "PADUA",
-    "VERISIGN",
     "NTNU",
     "COPELABS",
     "UI",
     "GOETTINGEN",
-    "OSAKA"
+    "OSAKA",
+    "MINHO",
+    "NIST",
+    "UFPA",
+    "SRRU"
 ]

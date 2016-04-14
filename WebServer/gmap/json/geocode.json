@@ -84,14 +84,6 @@
         "_real_position": [ 33.6495, -117.845798 ],
         "position": [ 33.1495, -118.145798 ]
     },
-    "PKU": {
-        "name": "Peking University",
-        "shortname": "PKU",
-        "site": "http://162.105.146.26:80/",
-        "backbone": false,
-        "_real_position": [ 39.59, 116.18 ],
-        "position": [ 40.00, 116.18 ]
-    },
     "BUPT": {
         "name": "Beijing University of Posts and Telecommunications",
         "shortname": "BUPT",
@@ -184,13 +176,6 @@
         "backbone": false,
         "position": [ 45.35858, 11.78360]
     },
-    "VERISIGN": {
-        "name": "Verisign",
-        "shortname": "VERISIGN",
-        "site": "http://72.13.58.118:80/",
-        "backbone": false,
-        "position": [ 38.14907010, -77.5 ]
-    },
     "NTNU": {
         "name": "Norwegian University of Science and Technology",
         "shortname": "NTNU",
@@ -226,5 +211,33 @@
         "backbone": false,
         "position": [ 34.3, 135.7193],
         "_real_position": [ 34.72, 135.5193]
+    },
+    "MINHO": {
+        "name": "University oh Minho",
+        "shortname": "MINHO",
+        "site": "http://netlab.gcom.di.uminho.pt:80/",
+        "backbone": false,
+        "position": [ 41.8, -8.2]
+    },
+    "NIST": {
+        "name": "National Institute for Standards and Testing",
+        "shortname": "NIST",
+        "site": "https://ndn-01.antd.nist.gov/",
+        "backbone": false,
+        "position": [ 39.14907010, -76.5 ]
+    },
+    "UFPA": {
+        "name": "Federal University of Para, Brazil",
+        "shortname": "UFPA",
+        "site": "http://0.0.0.0:80/",
+        "backbone": false,
+        "position": [ -3.7, -49.6 ]
+    },
+    "SRRU": {
+        "name": "Surindra Rajabhat University, Thailand",
+        "shortname": "SRRU",
+        "site": "http://202.29.30.31:80/",
+        "backbone": false,
+        "position": [ 15.3, 103.7 ]
     }
 }

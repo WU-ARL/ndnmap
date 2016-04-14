@@ -102,18 +102,6 @@
         "end": "UCLA"
     },
     {
-        "id": 18,
-        "nlsr_weight": 85,
-        "start": "UCLA",
-        "end": "PKU"
-    },
-    {
-        "id": 19,
-        "nlsr_weight": 112,
-        "start": "NEU",
-        "end": "PKU"
-    },
-    {
         "id": 20,
         "nlsr_weight": 1,
         "start": "UCLA",
@@ -130,12 +118,6 @@
         "nlsr_weight": 3,
         "start": "CAIDA",
         "end": "UCI"
-    },
-    {
-        "id": 23,
-        "nlsr_weight": 14,
-        "start": "TONGJI",
-        "end": "PKU"
     },
     {
         "id": 24,
@@ -160,12 +142,6 @@
         "nlsr_weight": 56,
         "start": "UM",
         "end": "ORANGE"
-    },
-    {
-        "id": 28,
-        "nlsr_weight": 14,
-        "start": "PKU",
-        "end": "BUPT"
     },
     {
         "id": 29,
@@ -208,12 +184,6 @@
         "nlsr_weight": 9,
         "start": "BASEL",
         "end": "URJC"
-    },
-    {
-        "id": 36,
-        "nlsr_weight": 127,
-        "start": "BASEL",
-        "end": "PKU"
     },
     {
         "id": 37,
@@ -294,12 +264,6 @@
         "end": "BUPT"
     },
     {
-        "id": 50,
-        "nlsr_weight": 38,
-        "start": "ANYANG",
-        "end": "PKU"
-    },
-    {
         "id": 52,
         "nlsr_weight": 80,
         "start": "UIUC",
@@ -346,30 +310,6 @@
         "nlsr_weight": 30,
         "start": "NTNU",
         "end": "BASEL"
-    },
-    {
-        "id": 60,
-        "nlsr_weight": 107,
-        "start": "NTNU",
-        "end": "PKU"
-    },
-    {
-        "id": 61,
-        "nlsr_weight": 18,
-        "start": "VERISIGN",
-        "end": "UM"
-    },
-    {
-        "id": 62,
-        "nlsr_weight": 15,
-        "start": "VERISIGN",
-        "end": "WU"
-    },
-    {
-        "id": 63,
-        "nlsr_weight": 16,
-        "start": "VERISIGN",
-        "end": "MICH"
     },
     {
         "id": 64,
@@ -478,5 +418,107 @@
         "nlsr_weight": 63,
         "start": "TONGJI",
         "end": "OSAKA"
+    },
+    {
+        "id": 82,
+        "nlsr_weight": 4,
+        "start": "COPELABS",
+        "end": "MINHO"
+    },
+    {
+        "id": 83,
+        "nlsr_weight": 23,
+        "start": "BASEL",
+        "end": "MINHO"
+    },
+    {
+        "id": 84,
+        "nlsr_weight": 26,
+        "start": "PADUA",
+        "end": "MINHO"
+    },
+    {
+        "id": 85,
+        "nlsr_weight": 13,
+        "start": "URJC",
+        "end": "MINHO"
+    },
+    {
+        "id": 87,
+        "nlsr_weight": 13,
+        "start": "NIST",
+        "end": "NEU"
+    },
+    {
+        "id": 88,
+        "nlsr_weight": 13,
+        "start": "NIST",
+        "end": "MICH"
+    },
+    {
+        "id": 89,
+        "nlsr_weight": 13,
+        "start": "NIST",
+        "end": "UIUC"
+    },
+    {
+        "id": 90,
+        "nlsr_weight": 235,
+        "start": "UI",
+        "end": "UFPA"
+    },
+    {
+        "id": 91,
+        "nlsr_weight": 145,
+        "start": "UFPA",
+        "end": "COPELABS"
+    },
+    {
+        "id": 92,
+        "nlsr_weight": 115,
+        "start": "UFPA",
+        "end": "UM"
+    },
+    {
+        "id": 93,
+        "nlsr_weight": 155,
+        "start": "UFPA",
+        "end": "CAIDA"
+    },
+    {
+        "id": 94,
+        "nlsr_weight": 13,
+        "start": "SRRU",
+        "end": "PADUA"
+    },
+    {
+        "id": 95,
+        "nlsr_weight": 13,
+        "start": "SRRU",
+        "end": "UI"
+    },
+    {
+        "id": 96,
+        "nlsr_weight": 13,
+        "start": "SRRU",
+        "end": "OSAKA"
+    },
+    {
+        "id": 97,
+        "nlsr_weight": 13,
+        "start": "SRRU",
+        "end": "BUPT"
+    },
+    {
+        "id": 98,
+        "nlsr_weight": 13,
+        "start": "SRRU",
+        "end": "ANYANG"
+    },
+    {
+        "id": 99,
+        "nlsr_weight": 38,
+        "start": "KISTI",
+        "end": "UI"
     }
 ]
