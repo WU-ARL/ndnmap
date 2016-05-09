@@ -1,0 +1,245 @@
+{
+    "UA": {
+        "name": "The University of Arizona",
+        "shortname": "UA",
+        "site": "http://hobo.cs.arizona.edu:80/",
+        "backbone": false,
+        "position": [ 32.22896140, -110.94832260 ]
+    },
+    "CSU": {
+        "name": "Colorado State University",
+        "shortname": "CSU",
+        "site": "http://mccoy.netsec.colostate.edu:80/",
+        "backbone": false,
+        "position": [ 40.57471750, -105.08482930 ]
+    },
+    "UM": {
+        "name": "University of Memphis",
+        "shortname": "UM",
+        "site": "http://titan.cs.memphis.edu:80/",
+        "backbone": false,
+        "position": [ 35.11860990, -89.93700109999999 ]
+    },
+    "NEU": {
+        "name": "Northeastern University",
+        "shortname": "NEU",
+        "site": "http://129.10.52.193:80/",
+        "backbone": false,        
+        "_real_position": [ 42.33987830, -71.08873579999999 ],
+        "position": [ 42.7, -71.08873579999999 ]
+    },
+    "MICH": {
+        "name": "University Michigan",
+        "shortname": "MICH",
+        "site": "http://ndn0.eecs.umich.edu:80/",
+        "backbone": false,
+        "_real_position": [ 42.10260390, -80.23171080000002 ],
+        "position": [ 42.50260390, -83.4 ]
+    },
+    "UIUC": {
+        "name": "University of Illinois, Urbana-Champaign",
+        "shortname": "UIUC",
+        "site": "http://ndnx.cs.illinois.edu:80/",
+        "backbone": false,
+        "_real_position": [ 40.10260390, -88.23171080000002 ],
+        "position": [ 40.60260390, -88.23171080000002 ]
+    },
+    "UCLA": {
+        "name": "University of California, Los Angeles",
+        "shortname": "UCLA",
+        "site": "http://spurs.cs.ucla.edu:80/",
+        "backbone": false,
+        "_real_position": [ 34.07282250, -118.43873980 ],
+        "position": [ 35.5, -120 ]
+    },
+    "REMAP": {
+        "name": "Remap at University of California, Los Angeles",
+        "shortname": "REMAP",
+        "site": "http://aleph.ndn.ucla.edu:80/",
+        "backbone": false,
+        "_real_position": [ 34.07282250, -118.43873980 ],
+        "position": [ 34.4, -117.14807210 ]
+    },
+    "CAIDA": {
+        "name": "University of California San Diego",
+        "shortname": "CAIDA",
+        "site": "http://click.caida.org:80/",
+        "backbone": false,
+        "_real_position": [ 32.87357720, -117.23781110 ],
+        "position": [ 31.87357720, -119.23781110 ]
+    },
+    "WU": {
+        "name": "Washington University in St. Louis",
+        "shortname": "WU",
+        "site": "http://wundngw.arl.wustl.edu:80/",
+        "backbone": false,
+        "_real_position": [ 38.64907010, -90.30334710 ],
+        "position": [ 38.14907010, -90.30334710 ]
+    },
+    "UCI": {
+        "name": "University of California, Irvine",
+        "shortname": "UCI",
+        "site": "http://ndnhub.ics.uci.edu:80/",
+        "backbone": false,
+        "_real_position": [ 33.6495, -117.845798 ],
+        "position": [ 33.1495, -118.145798 ]
+    },
+    "PKU": {
+        "name": "Peking University",
+        "shortname": "PKU",
+        "site": "http://162.105.146.26:80/",
+        "backbone": false,
+        "_real_position": [ 39.59, 116.18 ],
+        "position": [ 40.00, 116.18 ]
+    },
+    "BUPT": {
+        "name": "Beijing University of Posts and Telecommunications",
+        "shortname": "BUPT",
+        "site": "http://114.247.165.44:80/",
+        "backbone": false,
+        "_real_position": [ 39.59, 116.18 ],
+        "position": [ 37.40, 114.18 ]
+    },
+    "TONGJI": {
+        "name": "Tongji University",
+        "shortname": "TONGJI",
+        "site": "http://202.120.188.176:80/",
+        "backbone": false,
+        "_real_position": [ 31.12, 121.30 ],
+        "position": [ 31.12, 121.30 ]
+    },
+    "LIP6": {
+        "name": "University Pierre et Marie Curie, Sorbonne Universities LIP6",
+        "shortname": "LIP6",
+        "site": "http://132.227.62.163:80/",
+        "backbone": false,
+        "_real_position": [ 48.50, 2.21 ],
+        "position": [ 48.50, 1.71 ]
+    },
+    "ORANGE": {
+        "name": "Orange Labs",
+        "shortname": "ORANGE",
+        "site": "http://161.105.195.18:80/",
+        "backbone": false,
+        "_real_position": [ 47.0, 2.3],
+        "position": [ 47.5, 2.8]
+    },
+    "SYSTEMX": {
+        "name": "Institute for Technological Research SystemX",
+        "shortname": "SYSTEMX",
+        "site": "http://systemx-ndn-1.enst.fr:80/",
+        "backbone": false,
+        "_real_position": [ 48.71, 2.19],
+        "position": [ 48.71, 3.19]
+    },
+    "URJC": {
+        "name": "Universidad Rey Juan Carlos (King Juan Carlos University)",
+        "shortname": "URJC",
+        "site": "http://193.147.51.186:80/",
+        "backbone": false,
+        "_real_position": [ 40.3359, -3.8732],
+        "position": [ 41.3359, -3.8732]
+    },
+    "BASEL": {
+        "name": "University of Basel",
+        "shortname": "BASEL",
+        "site": "http://192.43.193.111:80/",
+        "backbone": false,
+        "position": [ 47.55858, 7.58360]
+    },
+    "WASEDA": {
+        "name": "Waseda University",
+        "shortname": "WASEDA",
+        "site": "http://133.9.73.66:80/",
+        "backbone": false,
+        "_real_position": [ 35.7092, 139.7193],
+        "position": [ 35.8092, 139.7193]
+    },
+    "BYU": {
+        "name": "Brigham Young University",
+        "shortname": "BYU",
+        "site": "http://pasta10.cs.byu.edu:80/",
+        "backbone": false,
+        "position": [ 40.14, -111.39]
+    },
+    "ANYANG": {
+        "name": "Anyang University",
+        "shortname": "ANYANG",
+        "site": "http://210.114.89.49:80/",
+        "backbone": false,
+        "position": [ 37.7, 127.00]
+    },
+    "KISTI": {
+        "name": "Korea Institute of Science and Technology Information",
+        "shortname": "KISTI",
+        "site": "http://203.253.235.168:80/",
+        "backbone": false,
+        "_real_position": [ 36.8, 127.50],
+        "position": [ 36.0, 127.50]
+    },
+    "PADUA": {
+        "name": "University of Padua",
+        "shortname": "PADUA",
+        "site": "http://ndnnode.math.unipd.it:80/",
+        "backbone": false,
+        "position": [ 45.35858, 11.78360]
+    },
+    "VERISIGN": {
+        "name": "Verisign",
+        "shortname": "VERISIGN",
+        "site": "http://72.13.58.118:80/",
+        "backbone": false,
+        "_real_position": [ 38.14907010, -77.5 ],
+        "position": [ 38.0, -77.5 ]
+    },
+    "NTNU": {
+        "name": "Norwegian University of Science and Technology",
+        "shortname": "NTNU",
+        "site": "http://129.241.208.115:80/",
+        "backbone": false,
+        "position": [ 63.5, 10.5]
+    },
+    "COPELABS": {
+        "name": "COPELABS, University Lusofona",
+        "shortname": "COPELABS",
+        "site": "http://193.137.75.171:80/",
+        "backbone": false,
+        "position": [ 38.6, -9.0]
+    },
+    "UI": {
+        "name": "University of Indonesia",
+        "shortname": "UI",
+        "site": "http://152.118.148.103:80/",
+        "backbone": false,
+        "position": [ -6.0, 106.8 ]
+    },
+    "GOETTINGEN": {
+        "name": "Goettingen University ",
+        "shortname": "GOETTINGEN",
+        "site": "http://134.76.249.235:80/",
+        "backbone": false,
+        "position": [ 52.05858, 9.58360]
+    },
+    "OSAKA": {
+        "name": "Osaka University",
+        "shortname": "OSAKA",
+        "site": "http://133.1.17.51:80/",
+        "backbone": false,
+        "position": [ 34.3, 135.7193],
+        "_real_position": [ 34.72, 135.5193]
+    },
+    "MINHO": {
+        "name": "University oh Minho",
+        "shortname": "MINHO",
+        "site": "http://netlab.gcom.di.uminho.pt:80/",
+        "backbone": false,
+        "position": [ 41.8, -8.2]
+    },
+    "NIST": {
+        "name": "National Institute for Standards and Testing",
+        "shortname": "NIST",
+        "site": "http://0.0.0.0:80/",
+        "backbone": false,
+        "position": [ 39.14907010, -76.5 ]
+    }
+}
