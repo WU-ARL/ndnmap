@@ -229,7 +229,7 @@
     "UFPA": {
         "name": "Federal University of Para, Brazil",
         "shortname": "UFPA",
-        "site": "http://0.0.0.0:80/",
+        "site": "http://200.239.93.10:80/",
         "backbone": false,
         "position": [ -3.7, -49.6 ]
     },
