@@ -239,5 +239,12 @@
         "site": "http://202.29.30.31:80/",
         "backbone": false,
         "position": [ 15.3, 103.7 ]
+    },
+    "TNO": {
+        "name": "Netherlands Organization for Applied Scientific Research",
+        "shortname": "TNO",
+        "site": "http://134.221.116.42:80/",
+        "backbone": false,
+        "position": [ 52.05858, 4.0]
     }
 }

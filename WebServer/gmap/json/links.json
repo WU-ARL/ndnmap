@@ -520,5 +520,23 @@
         "nlsr_weight": 38,
         "start": "KISTI",
         "end": "UI"
+    },
+    {
+        "id": 100,
+        "nlsr_weight": 38,
+        "start": "TNO",
+        "end": "GOETTINGEN"
+    },
+    {
+        "id": 101,
+        "nlsr_weight": 38,
+        "start": "TNO",
+        "end": "LIP6"
+    },
+    {
+        "id": 102,
+        "nlsr_weight": 38,
+        "start": "TNO",
+        "end": "BASEL"
     }
 ]
