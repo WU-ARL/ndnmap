@@ -132,28 +132,10 @@
         "end": "MICH"
     },
     {
-        "id": 26,
-        "nlsr_weight": 3,
-        "start": "LIP6",
-        "end": "ORANGE"
-    },
-    {
-        "id": 27,
-        "nlsr_weight": 56,
-        "start": "UM",
-        "end": "ORANGE"
-    },
-    {
         "id": 29,
         "nlsr_weight": 18,
         "start": "TONGJI",
         "end": "BUPT"
-    },
-    {
-        "id": 30,
-        "nlsr_weight": 15,
-        "start": "ORANGE",
-        "end": "URJC"
     },
     {
         "id": 31,
@@ -172,12 +154,6 @@
         "nlsr_weight": 18,
         "start": "BASEL",
         "end": "LIP6"
-    },
-    {
-        "id": 34,
-        "nlsr_weight": 18,
-        "start": "BASEL",
-        "end": "ORANGE"
     },
     {
         "id": 35,
@@ -202,18 +178,6 @@
         "nlsr_weight": 75,
         "start": "UA",
         "end": "WASEDA"
-    },
-    {
-        "id": 40,
-        "nlsr_weight": 144,
-        "start": "WASEDA",
-        "end": "ORANGE"
-    },
-    {
-        "id": 41,
-        "nlsr_weight": 2,
-        "start": "SYSTEMX",
-        "end": "ORANGE"
     },
     {
         "id": 42,
@@ -279,12 +243,6 @@
         "id": 54,
         "nlsr_weight": 15,
         "start": "URJC",
-        "end": "PADUA"
-    },
-    {
-        "id": 55,
-        "nlsr_weight": 15,
-        "start": "ORANGE",
         "end": "PADUA"
     },
     {
@@ -538,5 +496,11 @@
         "nlsr_weight": 38,
         "start": "TNO",
         "end": "BASEL"
+    },
+    {
+        "id": 102,
+        "nlsr_weight": 5,
+        "start": "SRRU",
+        "end": "MSU"
     }
 ]

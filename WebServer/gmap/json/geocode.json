@@ -108,14 +108,6 @@
         "_real_position": [ 48.50, 2.21 ],
         "position": [ 48.50, 1.71 ]
     },
-    "ORANGE": {
-        "name": "Orange Labs",
-        "shortname": "ORANGE",
-        "site": "http://161.105.195.18:80/",
-        "backbone": false,
-        "_real_position": [ 47.0, 2.3],
-        "position": [ 47.5, 2.8]
-    },
     "SYSTEMX": {
         "name": "Institute for Technological Research SystemX",
         "shortname": "SYSTEMX",
@@ -246,5 +238,12 @@
         "site": "http://134.221.116.42:80/",
         "backbone": false,
         "position": [ 52.05858, 4.0]
+    },
+    "MSU": {
+        "name": "Mahasarakham University, Thailand",
+        "shortname": "MSU",
+        "site": "http://202.28.34.249:80/",
+        "backbone": false,
+        "position": [ 17.3, 103.7 ]
     }
 }
