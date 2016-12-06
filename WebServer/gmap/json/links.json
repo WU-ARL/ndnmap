@@ -498,9 +498,27 @@
         "end": "BASEL"
     },
     {
-        "id": 102,
+        "id": 103,
         "nlsr_weight": 5,
         "start": "SRRU",
+        "end": "MSU"
+    },
+    {
+        "id": 104,
+        "nlsr_weight": 150,
+        "start": "UCLA",
+        "end": "MSU"
+    },
+    {
+        "id": 105,
+        "nlsr_weight": 120,
+        "start": "TNO",
+        "end": "MSU"
+    },
+    {
+        "id": 106,
+        "nlsr_weight": 70,
+        "start": "ANYANG",
         "end": "MSU"
     }
 ]
