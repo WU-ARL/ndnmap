@@ -520,5 +520,41 @@
         "nlsr_weight": 70,
         "start": "ANYANG",
         "end": "MSU"
+    },
+    {
+        "id": 107,
+        "nlsr_weight": 63,
+        "start": "OSAKA",
+        "end": "PKUSZ"
+    },
+    {
+        "id": 108,
+        "nlsr_weight": 98,
+        "start": "WASEDA",
+        "end": "PKUSZ"
+    },
+    {
+        "id": 109,
+        "nlsr_weight": 54,
+        "start": "TONGJI",
+        "end": "PKUSZ"
+    },
+    {
+        "id": 110,
+        "nlsr_weight": 18,
+        "start": "BUPT",
+        "end": "PKUSZ"
+    },
+    {
+        "id": 111,
+        "nlsr_weight": 18,
+        "start": "MSU",
+        "end": "PKUSZ"
+    },
+    {
+        "id": 112,
+        "nlsr_weight": 18,
+        "start": "SRRU",
+        "end": "PKUSZ"
     }
 ]

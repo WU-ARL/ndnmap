@@ -245,5 +245,13 @@
         "site": "http://202.28.34.249:80/",
         "backbone": false,
         "position": [ 17.3, 103.7 ]
+    },
+    "PKUSZ": {
+        "name": "Peking University Shenzhen Graduate School",
+        "shortname": "PKUSZ",
+        "site": "http://219.223.222.5:80/",
+        "backbone": false,
+        "_real_position": [ 23.0, 114.0 ],
+        "position": [ 23.0, 114.0 ]
     }
 }
