@@ -408,12 +408,6 @@
         "end": "CAIDA"
     },
     {
-        "id": 94,
-        "nlsr_weight": 13,
-        "start": "SRRU",
-        "end": "PADUA"
-    },
-    {
         "id": 95,
         "nlsr_weight": 13,
         "start": "SRRU",
