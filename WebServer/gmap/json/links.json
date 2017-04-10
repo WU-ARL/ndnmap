@@ -499,13 +499,13 @@
     },
     {
         "id": 111,
-        "nlsr_weight": 18,
+        "nlsr_weight": 71,
         "start": "MSU",
         "end": "PKUSZ"
     },
     {
         "id": 112,
-        "nlsr_weight": 18,
+        "nlsr_weight": 71,
         "start": "SRRU",
         "end": "PKUSZ"
     },
