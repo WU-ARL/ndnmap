@@ -92,14 +92,6 @@
         "_real_position": [ 39.59, 116.18 ],
         "position": [ 37.40, 114.18 ]
     },
-    "TONGJI": {
-        "name": "Tongji University",
-        "shortname": "TONGJI",
-        "site": "http://202.120.188.176:80/",
-        "backbone": false,
-        "_real_position": [ 31.12, 121.30 ],
-        "position": [ 31.12, 121.30 ]
-    },
     "LIP6": {
         "name": "University Pierre et Marie Curie, Sorbonne Universities LIP6",
         "shortname": "LIP6",
