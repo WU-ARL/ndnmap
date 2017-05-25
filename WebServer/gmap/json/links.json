@@ -120,10 +120,22 @@
         "end": "UCI"
     },
     {
+        "id": 24,
+        "nlsr_weight": 93,
+        "start": "CAIDA",
+        "end": "TONGJI"
+    },
+    {
         "id": 25,
         "nlsr_weight": 69,
         "start": "LIP6",
         "end": "MICH"
+    },
+    {
+        "id": 29,
+        "nlsr_weight": 18,
+        "start": "TONGJI",
+        "end": "BUPT"
     },
     {
         "id": 31,
@@ -154,6 +166,12 @@
         "nlsr_weight": 48,
         "start": "WASEDA",
         "end": "BUPT"
+    },
+    {
+        "id": 38,
+        "nlsr_weight": 98,
+        "start": "WASEDA",
+        "end": "TONGJI"
     },
     {
         "id": 39,
@@ -196,6 +214,12 @@
         "nlsr_weight": 22,
         "start": "ANYANG",
         "end": "WASEDA"
+    },
+    {
+        "id": 48,
+        "nlsr_weight": 54,
+        "start": "ANYANG",
+        "end": "TONGJI"
     },
     {
         "id": 49,
@@ -294,6 +318,12 @@
         "end": "UI"
     },
     {
+        "id": 72,
+        "nlsr_weight": 21,
+        "start": "TONGJI",
+        "end": "UI"
+    },
+    {
         "id": 73,
         "nlsr_weight": 21,
         "start": "WASEDA",
@@ -339,6 +369,12 @@
         "id": 80,
         "nlsr_weight": 36,
         "start": "ANYANG",
+        "end": "OSAKA"
+    },
+    {
+        "id": 81,
+        "nlsr_weight": 63,
+        "start": "TONGJI",
         "end": "OSAKA"
     },
     {
@@ -492,6 +528,12 @@
         "end": "PKUSZ"
     },
     {
+        "id": 109,
+        "nlsr_weight": 54,
+        "start": "TONGJI",
+        "end": "PKUSZ"
+    },
+    {
         "id": 110,
         "nlsr_weight": 18,
         "start": "BUPT",
@@ -514,5 +556,23 @@
         "nlsr_weight": 170,
         "start": "PADUA",
         "end": "PKUSZ"
+    },
+    {
+        "id": 114,
+        "nlsr_weight": 20,
+        "start": "CNIC",
+        "end": "PKUSZ"
+    },
+    {
+        "id": 115,
+        "nlsr_weight": 10,
+        "start": "CNIC",
+        "end": "BUPT"
+    },
+    {
+        "id": 116,
+        "nlsr_weight": 45,
+        "start": "CNIC",
+        "end": "OSAKA"
     }
 ]
