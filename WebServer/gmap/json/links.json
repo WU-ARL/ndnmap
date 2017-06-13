@@ -574,5 +574,29 @@
         "nlsr_weight": 45,
         "start": "CNIC",
         "end": "OSAKA"
+    },
+    {
+        "id": 117,
+        "nlsr_weight": 2,
+        "start": "BERN",
+        "end": "BASEL"
+    },
+    {
+        "id": 118,
+        "nlsr_weight": 15,
+        "start": "BERN",
+        "end": "AFA"
+    },
+    {
+        "id": 119,
+        "nlsr_weight": 36,
+        "start": "COPELABS",
+        "end": "AFA"
+    },
+    {
+        "id": 120,
+        "nlsr_weight": 11,
+        "start": "PADUA",
+        "end": "AFA"
     }
 ]

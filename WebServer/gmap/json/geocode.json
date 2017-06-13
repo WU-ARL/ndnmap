@@ -131,6 +131,13 @@
         "backbone": false,
         "position": [ 47.55858, 7.58360]
     },
+    "BERN": {
+        "name": "University of Bern",
+        "shortname": "BERN",
+        "site": "http://130.92.70.172:80/",
+        "backbone": false,
+        "position": [ 46.8, 8.58360]
+    },
     "WASEDA": {
         "name": "Waseda University",
         "shortname": "WASEDA",
@@ -160,6 +167,13 @@
         "backbone": false,
         "_real_position": [ 36.8, 127.50],
         "position": [ 36.0, 127.50]
+    },
+    "AFA": {
+        "name": "AFA Systems",
+        "shortname": "AFA",
+        "site": "http://93.42.157.82:80/",
+        "backbone": false,
+        "position": [ 42.1, 14.5]
     },
     "PADUA": {
         "name": "University of Padua",
