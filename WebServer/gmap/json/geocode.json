@@ -275,5 +275,107 @@
         "backbone": false,
         "_real_position": [ 39.59, 116.18 ],
         "position": [ 40.0, 112.0 ]
+    },
+    "AWS-US-E-1": {
+        "name": "AWS US East 1 Region, N. Virginia",
+        "shortname": "AWS-US-E-1",
+        "site": "http://0.0.0.0:80/",
+        "backbone": false,
+        "position": [ 38.0, -78.5 ]
+    },
+    "AWS-US-E-2": {
+        "name": "AWS US East 2 Region, Ohio",
+        "shortname": "AWS-US-E-2",
+        "site": "http://0.0.0.0:80/",
+        "backbone": false,
+        "_real_position": [ 40.0, -83.0 ],
+        "position": [ 40.5, -82.0 ]
+    },
+    "AWS-US-W-1": {
+        "name": "AWS US West 1 Region, N. California",
+        "shortname": "AWS-US-W-1",
+        "site": "http://0.0.0.0:80/",
+        "backbone": false,
+        "position": [ 41.1, -121.4 ]
+    },
+    "AWS-US-W-2": {
+        "name": "AWS US West 2 Region, Oregon",
+        "shortname": "AWS-US-W-2",
+        "site": "http://0.0.0.0:80/",
+        "backbone": false,
+        "position": [ 44.1, -123.1 ]
+    },
+    "AWS-CA-C-1": {
+        "name": "AWS CA Central 1 Region, Toronto",
+        "shortname": "AWS-CA-W-1",
+        "site": "http://0.0.0.0:80/",
+        "backbone": false,
+        "position": [ 43.6, -79.4 ]
+    },
+    "AWS-EU-W-1": {
+        "name": "AWS EU West 1 Region, Ireland",
+        "shortname": "AWS-EU-W-1",
+        "site": "http://0.0.0.0:80/",
+        "backbone": false,
+        "position": [ 53.5, -7.0 ]
+    },
+    "AWS-EU-W-2": {
+        "name": "AWS EU West 2 Region, London",
+        "shortname": "AWS-EU-W-2",
+        "site": "http://0.0.0.0:80/",
+        "backbone": false,
+        "position": [ 51.5, 0.1 ]
+    },
+    "AWS-EU-C-1": {
+        "name": "AWS EU Central 1 Region, Frankfurt",
+        "shortname": "AWS-EU-C-1",
+        "site": "http://0.0.0.0:80/",
+        "backbone": false,
+        "_real_position": [ 50.1, 8.7 ],
+        "position": [ 51.0, 9.5 ]
+    },
+    "AWS-AP-SE-1": {
+        "name": "AWS AP SouthEast 1 Region, Singapore",
+        "shortname": "AWS-AP-SE-1",
+        "site": "http://0.0.0.0:80/",
+        "backbone": false,
+        "position": [ 1.4, 103.8 ]
+    },
+    "AWS-AP-SE-2": {
+        "name": "AWS AP SouthEast 2 Region, Sydney",
+        "shortname": "AWS-AP-SE-2",
+        "site": "http://0.0.0.0:80/",
+        "backbone": false,
+        "position": [ -33.9, 151.0 ]
+    },
+    "AWS-AP-NE-1": {
+        "name": "AWS AP NorthEast 1 Region, Tokyo",
+        "shortname": "AWS-AP-NE-1",
+        "site": "http://0.0.0.0:80/",
+        "backbone": false,
+        "_real_position": [ 35.6, 139.9 ],
+        "position": [ 35.0, 140.9 ]
+    },
+    "AWS-AP-NE-2": {
+        "name": "AWS AP NorthEast 2 Region, Seoul",
+        "shortname": "AWS-AP-NE-2",
+        "site": "http://0.0.0.0:80/",
+        "backbone": false,
+        "_real_position": [ 37.3, 127.0 ],
+        "position": [ 37.0, 128.0 ]
+    },
+    "AWS-AP-S-1": {
+        "name": "AWS AP South 1 Region, Mumbai",
+        "shortname": "AWS-AP-S-1",
+        "site": "http://0.0.0.0:80/",
+        "backbone": false,
+        "position": [ 19.0, 73.2 ]
+    },
+    "AWS-SA-E-1": {
+        "name": "AWS SA East 1 Region, Sao Paolo",
+        "shortname": "AWS-SA-E-1",
+        "site": "http://0.0.0.0:80/",
+        "backbone": false,
+        "position": [ -23.2, -45.0 ]
     }
 }
