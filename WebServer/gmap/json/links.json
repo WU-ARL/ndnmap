@@ -598,5 +598,35 @@
         "nlsr_weight": 11,
         "start": "PADUA",
         "end": "AFA"
+    },
+    {
+        "id": 121,
+        "nlsr_weight": 100,
+        "start": "MSU",
+        "end": "UUM"
+    },
+    {
+        "id": 122,
+        "nlsr_weight": 100,
+        "start": "SRRU",
+        "end": "UUM"
+    },
+    {
+        "id": 123,
+        "nlsr_weight": 100,
+        "start": "AFA",
+        "end": "UUM"
+    },
+    {
+        "id": 124,
+        "nlsr_weight": 100,
+        "start": "UI",
+        "end": "UUM"
+    },
+    {
+        "id": 125,
+        "nlsr_weight": 100,
+        "start": "OSAKA",
+        "end": "UUM"
     }
 ]

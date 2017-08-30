@@ -313,6 +313,14 @@
         "_real_position": [ 39.59, 116.18 ],
         "position": [ 40.0, 112.0 ]
     },
+    "UUM": {
+        "name": "Universiti Utara Malaysia",
+        "shortname": "UUM",
+        "site": "http://203.80.17.88:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "position": [ 6.6, 100.3 ]
+    },
     "AWS-US-E-1": {
         "name": "AWS US East 1 Region, N. Virginia",
         "shortname": "AWS-US-E-1",
