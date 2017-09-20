@@ -321,6 +321,14 @@
         "ws-tls": false,
         "position": [ 6.6, 100.3 ]
     },
+    "MUMBAI_AWS": {
+        "name": "MUMBAI gateway at AWS in Mumbai, India",
+        "shortname": "MUMBAI_AWS",
+        "site": "http://35.154.157.78:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "position": [ 19.0, 73.2 ]
+    },
     "AWS-US-E-1": {
         "name": "AWS US East 1 Region, N. Virginia",
         "shortname": "AWS-US-E-1",
@@ -420,14 +428,6 @@
         "ws-tls": false,
         "_real_position": [ 37.3, 127.0 ],
         "position": [ 37.0, 128.0 ]
-    },
-    "AWS-AP-S-1": {
-        "name": "AWS AP South 1 Region, Mumbai",
-        "shortname": "AWS-AP-S-1",
-        "site": "http://0.0.0.0:80/",
-        "backbone": false,
-        "ws-tls": false,
-        "position": [ 19.0, 73.2 ]
     },
     "AWS-SA-E-1": {
         "name": "AWS SA East 1 Region, Sao Paolo",

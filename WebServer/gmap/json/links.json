@@ -615,7 +615,7 @@
         "id": 123,
         "nlsr_weight": 100,
         "start": "AFA",
-        "end": "UUM"
+        "end": "MUMBAI_AWS"
     },
     {
         "id": 124,
@@ -628,5 +628,17 @@
         "nlsr_weight": 100,
         "start": "OSAKA",
         "end": "UUM"
+    },
+    {
+        "id": 126,
+        "nlsr_weight": 122,
+        "start": "WU",
+        "end": "MUMBAI_AWS"
+    },
+    {
+        "id": 127,
+        "nlsr_weight": 100,
+        "start": "UUM",
+        "end": "MUMBAI_AWS"
     }
 ]
