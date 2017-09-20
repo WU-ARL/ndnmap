@@ -630,12 +630,6 @@
         "end": "UUM"
     },
     {
-        "id": 126,
-        "nlsr_weight": 122,
-        "start": "WU",
-        "end": "MUMBAI_AWS"
-    },
-    {
         "id": 127,
         "nlsr_weight": 100,
         "start": "UUM",
