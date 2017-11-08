@@ -321,6 +321,14 @@
         "ws-tls": false,
         "position": [ 6.6, 100.3 ]
     },
+    "UASLP": {
+        "name": "Universidad Autónoma de San Luis Potosí",
+        "shortname": "UASLP",
+        "site": "http://148.224.92.99:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "position": [ 22.0, -100.5]
+    },
     "MUMBAI_AWS": {
         "name": "MUMBAI gateway at AWS in Mumbai, India",
         "shortname": "MUMBAI_AWS",

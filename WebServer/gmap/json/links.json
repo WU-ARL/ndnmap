@@ -634,5 +634,23 @@
         "nlsr_weight": 100,
         "start": "UUM",
         "end": "MUMBAI_AWS"
+    },
+    {
+        "id": 128,
+        "nlsr_weight": 100,
+        "start": "UASLP",
+        "end": "UM"
+    },
+    {
+        "id": 129,
+        "nlsr_weight": 100,
+        "start": "UASLP",
+        "end": "UA"
+    },
+    {
+        "id": 130,
+        "nlsr_weight": 100,
+        "start": "UASLP",
+        "end": "UFPA"
     }
 ]
