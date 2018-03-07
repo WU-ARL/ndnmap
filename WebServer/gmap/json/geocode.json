@@ -5,6 +5,7 @@
         "site": "http://hobo.cs.arizona.edu:80/",
         "backbone": false,
         "ws-tls": true,
+        "fch-enabled": true,
         "position": [ 32.22896140, -110.94832260 ]
     },
     "CSU": {
@@ -13,6 +14,7 @@
         "site": "http://mccoy.netsec.colostate.edu:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": true,
         "position": [ 40.57471750, -105.08482930 ]
     },
     "UM": {
@@ -21,6 +23,7 @@
         "site": "http://titan.cs.memphis.edu:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": false,
         "position": [ 35.11860990, -89.93700109999999 ]
     },
     "NEU": {
@@ -29,6 +32,7 @@
         "site": "http://129.10.52.193:80/",
         "backbone": false,        
         "ws-tls": false,
+        "fch-enabled": true,
         "_real_position": [ 42.33987830, -71.08873579999999 ],
         "position": [ 42.7, -71.08873579999999 ]
     },
@@ -38,6 +42,7 @@
         "site": "http://ndn0.eecs.umich.edu:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": true,
         "_real_position": [ 42.10260390, -80.23171080000002 ],
         "position": [ 42.50260390, -83.4 ]
     },
@@ -47,6 +52,7 @@
         "site": "http://ndnx.cs.illinois.edu:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": true,
         "_real_position": [ 40.10260390, -88.23171080000002 ],
         "position": [ 40.60260390, -88.23171080000002 ]
     },
@@ -56,6 +62,7 @@
         "site": "http://spurs.cs.ucla.edu:80/",
         "backbone": false,
         "ws-tls": true,
+        "fch-enabled": true,
         "_real_position": [ 34.07282250, -118.43873980 ],
         "position": [ 35.5, -120 ]
     },
@@ -65,6 +72,7 @@
         "site": "http://aleph.ndn.ucla.edu:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": true,
         "_real_position": [ 34.07282250, -118.43873980 ],
         "position": [ 34.4, -117.14807210 ]
     },
@@ -74,6 +82,7 @@
         "site": "http://click.caida.org:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": true,
         "_real_position": [ 32.87357720, -117.23781110 ],
         "position": [ 31.87357720, -119.23781110 ]
     },
@@ -83,6 +92,7 @@
         "site": "http://wundngw.arl.wustl.edu:80/",
         "backbone": false,
         "ws-tls": true,
+        "fch-enabled": true,
         "_real_position": [ 38.64907010, -90.30334710 ],
         "position": [ 38.14907010, -90.30334710 ]
     },
@@ -92,6 +102,7 @@
         "site": "http://ndnhub.ics.uci.edu:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": true,
         "_real_position": [ 33.6495, -117.845798 ],
         "position": [ 33.1495, -118.145798 ]
     },
@@ -101,6 +112,7 @@
         "site": "http://114.247.165.44:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": false,
         "_real_position": [ 39.59, 116.18 ],
         "position": [ 37.40, 114.18 ]
     },
@@ -110,6 +122,7 @@
         "site": "http://202.120.188.176:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": false,
         "_real_position": [ 31.12, 121.30 ],
         "position": [ 31.12, 121.30 ]
     },
@@ -119,6 +132,7 @@
         "site": "http://132.227.62.163:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": true,
         "_real_position": [ 48.50, 2.21 ],
         "position": [ 48.50, 1.71 ]
     },
@@ -128,6 +142,7 @@
         "site": "http://systemx-ndn-1.enst.fr:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": true,
         "_real_position": [ 48.71, 2.19],
         "position": [ 48.71, 3.19]
     },
@@ -137,6 +152,7 @@
         "site": "http://193.147.51.186:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": true,
         "_real_position": [ 40.3359, -3.8732],
         "position": [ 41.3359, -3.8732]
     },
@@ -146,6 +162,7 @@
         "site": "http://192.43.193.111:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": true,
         "position": [ 47.55858, 7.58360]
     },
     "BERN": {
@@ -154,6 +171,7 @@
         "site": "http://130.92.70.172:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": true,
         "position": [ 46.8, 8.58360]
     },
     "WASEDA": {
@@ -162,6 +180,7 @@
         "site": "http://133.9.73.66:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": true,
         "_real_position": [ 35.7092, 139.7193],
         "position": [ 35.8092, 139.7193]
     },
@@ -171,6 +190,7 @@
         "site": "http://pasta10.cs.byu.edu:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": false,
         "position": [ 40.14, -111.39]
     },
     "ANYANG": {
@@ -179,6 +199,7 @@
         "site": "http://210.114.89.49:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": true,
         "position": [ 37.7, 127.00]
     },
     "KISTI": {
@@ -187,6 +208,7 @@
         "site": "http://203.253.235.168:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": true,
         "_real_position": [ 36.8, 127.50],
         "position": [ 36.0, 127.50]
     },
@@ -196,6 +218,7 @@
         "site": "http://93.42.157.82:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": true,
         "position": [ 42.1, 14.5]
     },
     "PADUA": {
@@ -204,6 +227,7 @@
         "site": "http://ndnnode.math.unipd.it:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": true,
         "position": [ 45.35858, 11.78360]
     },
     "NTNU": {
@@ -212,6 +236,7 @@
         "site": "http://129.241.208.115:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": true,
         "position": [ 63.5, 10.5]
     },
     "COPELABS": {
@@ -220,6 +245,7 @@
         "site": "http://193.137.75.171:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": true,
         "position": [ 38.6, -9.0]
     },
     "UI": {
@@ -228,6 +254,7 @@
         "site": "http://152.118.148.103:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": false,
         "position": [ -6.0, 106.8 ]
     },
     "GOETTINGEN": {
@@ -236,6 +263,7 @@
         "site": "http://134.76.249.235:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": true,
         "position": [ 52.05858, 9.58360]
     },
     "OSAKA": {
@@ -244,6 +272,7 @@
         "site": "http://133.1.17.51:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": true,
         "position": [ 34.3, 135.7193],
         "_real_position": [ 34.72, 135.5193]
     },
@@ -253,6 +282,7 @@
         "site": "http://netlab.gcom.di.uminho.pt:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": true,
         "position": [ 41.8, -8.2]
     },
     "NIST": {
@@ -261,6 +291,7 @@
         "site": "https://ndn-01.antd.nist.gov/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": false,
         "position": [ 39.14907010, -76.5 ]
     },
     "UFPA": {
@@ -269,6 +300,7 @@
         "site": "http://200.239.93.10:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": true,
         "position": [ -3.7, -49.6 ]
     },
     "SRRU": {
@@ -277,6 +309,7 @@
         "site": "http://202.29.30.31:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": true,
         "position": [ 15.3, 103.7 ]
     },
     "TNO": {
@@ -285,6 +318,7 @@
         "site": "http://134.221.116.42:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": true,
         "position": [ 52.05858, 4.0]
     },
     "MSU": {
@@ -293,6 +327,7 @@
         "site": "http://202.28.34.249:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": true,
         "position": [ 17.3, 103.7 ]
     },
     "PKUSZ": {
@@ -301,6 +336,7 @@
         "site": "http://219.223.222.5:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": true,
         "_real_position": [ 23.0, 114.0 ],
         "position": [ 23.0, 114.0 ]
     },
@@ -310,6 +346,7 @@
         "site": "http://159.226.186.32:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": false,
         "_real_position": [ 39.59, 116.18 ],
         "position": [ 40.0, 112.0 ]
     },
@@ -319,6 +356,7 @@
         "site": "http://203.80.17.88:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": true,
         "position": [ 6.6, 100.3 ]
     },
     "UASLP": {
@@ -327,6 +365,7 @@
         "site": "http://148.224.92.99:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": true,
         "position": [ 22.0, -100.5]
     },
     "CAGLIARI": {
@@ -335,6 +374,7 @@
         "site": "http://192.167.131.70:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": true,
         "position": [ 39.1, 8.9]
     },
     "MUMBAI_AWS": {
@@ -343,6 +383,7 @@
         "site": "http://35.154.157.78:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": true,
         "position": [ 19.0, 73.2 ]
     },
     "AWS-US-E-1": {
@@ -351,6 +392,7 @@
         "site": "http://0.0.0.0:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": false,
         "position": [ 38.0, -78.5 ]
     },
     "AWS-US-E-2": {
@@ -359,6 +401,7 @@
         "site": "http://0.0.0.0:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": false,
         "_real_position": [ 40.0, -83.0 ],
         "position": [ 40.5, -82.0 ]
     },
@@ -368,6 +411,7 @@
         "site": "http://0.0.0.0:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": false,
         "position": [ 41.1, -121.4 ]
     },
     "AWS-US-W-2": {
@@ -376,6 +420,7 @@
         "site": "http://0.0.0.0:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": false,
         "position": [ 44.1, -123.1 ]
     },
     "AWS-CA-C-1": {
@@ -384,6 +429,7 @@
         "site": "http://0.0.0.0:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": false,
         "position": [ 43.6, -79.4 ]
     },
     "AWS-EU-W-1": {
@@ -392,6 +438,7 @@
         "site": "http://0.0.0.0:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": false,
         "position": [ 53.5, -7.0 ]
     },
     "AWS-EU-W-2": {
@@ -400,6 +447,7 @@
         "site": "http://0.0.0.0:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": false,
         "position": [ 51.5, 0.1 ]
     },
     "AWS-EU-C-1": {
@@ -408,6 +456,7 @@
         "site": "http://0.0.0.0:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": false,
         "_real_position": [ 50.1, 8.7 ],
         "position": [ 51.0, 9.5 ]
     },
@@ -417,6 +466,7 @@
         "site": "http://0.0.0.0:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": false,
         "position": [ 1.4, 103.8 ]
     },
     "AWS-AP-SE-2": {
@@ -425,6 +475,7 @@
         "site": "http://0.0.0.0:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": false,
         "position": [ -33.9, 151.0 ]
     },
     "AWS-AP-NE-1": {
@@ -433,6 +484,7 @@
         "site": "http://0.0.0.0:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": false,
         "_real_position": [ 35.6, 139.9 ],
         "position": [ 35.0, 140.9 ]
     },
@@ -442,6 +494,7 @@
         "site": "http://0.0.0.0:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": false,
         "_real_position": [ 37.3, 127.0 ],
         "position": [ 37.0, 128.0 ]
     },
@@ -451,6 +504,7 @@
         "site": "http://0.0.0.0:80/",
         "backbone": false,
         "ws-tls": false,
+        "fch-enabled": false,
         "position": [ -23.2, -45.0 ]
     }
 }
