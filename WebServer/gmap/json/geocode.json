@@ -329,6 +329,14 @@
         "ws-tls": false,
         "position": [ 22.0, -100.5]
     },
+    "CAGLIARI": {
+        "name": "Universita degli Sudi di Cagliari",
+        "shortname": "CAGLIARI",
+        "site": "http://192.167.131.70:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "position": [ 39.1, 8.9]
+    },
     "MUMBAI_AWS": {
         "name": "MUMBAI gateway at AWS in Mumbai, India",
         "shortname": "MUMBAI_AWS",

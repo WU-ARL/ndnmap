@@ -652,5 +652,29 @@
         "nlsr_weight": 100,
         "start": "UASLP",
         "end": "UFPA"
+    },
+    {
+        "id": 131,
+        "nlsr_weight": 25,
+        "start": "AFA",
+        "end": "CAGLIARI"
+    },
+    {
+        "id": 132,
+        "nlsr_weight": 25,
+        "start": "PADUA",
+        "end": "CAGLIARI"
+    },
+    {
+        "id": 133,
+        "nlsr_weight": 100,
+        "start": "WU",
+        "end": "CAGLIARI"
+    },
+    {
+        "id": 134,
+        "nlsr_weight": 28,
+        "start": "URJC",
+        "end": "CAGLIARI"
     }
 ]
