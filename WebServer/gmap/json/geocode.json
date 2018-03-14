@@ -377,6 +377,15 @@
         "fch-enabled": true,
         "position": [ 39.1, 8.9]
     },
+    "CARUNA": {
+        "name": "Universidade da Caruna",
+        "shortname": "CARUNA",
+        "site": "http://193.144.50.247:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "fch-enabled": true,
+        "position": [ 43.3, -8.2]
+    },
     "MUMBAI_AWS": {
         "name": "MUMBAI gateway at AWS in Mumbai, India",
         "shortname": "MUMBAI_AWS",

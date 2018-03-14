@@ -672,9 +672,27 @@
         "end": "CAGLIARI"
     },
     {
-        "id": 134,
+        "id": 135,
         "nlsr_weight": 28,
         "start": "URJC",
+        "end": "CAGLIARI"
+    },
+    {
+        "id": 136,
+        "nlsr_weight": 27,
+        "start": "MINHO",
+        "end": "CARUNA"
+    },
+    {
+        "id": 137,
+        "nlsr_weight": 17,
+        "start": "URJC",
+        "end": "CARUNA"
+    },
+    {
+        "id": 138,
+        "nlsr_weight": 40,
+        "start": "CARUNA",
         "end": "CAGLIARI"
     }
 ]
