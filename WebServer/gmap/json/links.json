@@ -601,19 +601,19 @@
     },
     {
         "id": 121,
-        "nlsr_weight": 100,
+        "nlsr_weight": 26,
         "start": "MSU",
         "end": "UUM"
     },
     {
         "id": 122,
-        "nlsr_weight": 100,
+        "nlsr_weight": 42,
         "start": "SRRU",
         "end": "UUM"
     },
     {
         "id": 123,
-        "nlsr_weight": 100,
+        "nlsr_weight": 72,
         "start": "AFA",
         "end": "MUMBAI_AWS"
     },
@@ -631,7 +631,7 @@
     },
     {
         "id": 127,
-        "nlsr_weight": 100,
+        "nlsr_weight": 88,
         "start": "UUM",
         "end": "MUMBAI_AWS"
     },
@@ -643,7 +643,7 @@
     },
     {
         "id": 129,
-        "nlsr_weight": 100,
+        "nlsr_weight": 32,
         "start": "UASLP",
         "end": "UA"
     },
@@ -667,7 +667,7 @@
     },
     {
         "id": 133,
-        "nlsr_weight": 100,
+        "nlsr_weight": 75,
         "start": "WU",
         "end": "CAGLIARI"
     },
