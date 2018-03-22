@@ -29,7 +29,7 @@
     "NEU": {
         "name": "Northeastern University",
         "shortname": "NEU",
-        "site": "http://129.10.52.193:80/",
+        "site": "http://129.10.224.42:80/",
         "backbone": false,        
         "ws-tls": false,
         "fch-enabled": true,
@@ -39,7 +39,7 @@
     "MICH": {
         "name": "University Michigan",
         "shortname": "MICH",
-        "site": "http://ndn0.eecs.umich.edu:80/",
+        "site": "http://198.111.224.197:80/",
         "backbone": false,
         "ws-tls": false,
         "fch-enabled": true,
@@ -109,7 +109,7 @@
     "BUPT": {
         "name": "Beijing University of Posts and Telecommunications",
         "shortname": "BUPT",
-        "site": "http://114.247.165.44:80/",
+        "site": "http://114.247.165.44:8080/",
         "backbone": false,
         "ws-tls": false,
         "fch-enabled": false,
@@ -119,7 +119,7 @@
     "TONGJI": {
         "name": "Tongji University",
         "shortname": "TONGJI",
-        "site": "http://202.120.188.176:80/",
+        "site": "http://202.120.188.246:10421/",
         "backbone": false,
         "ws-tls": false,
         "fch-enabled": false,
@@ -149,7 +149,7 @@
     "URJC": {
         "name": "Universidad Rey Juan Carlos (King Juan Carlos University)",
         "shortname": "URJC",
-        "site": "http://193.147.51.186:80/",
+        "site": "http://193.147.79.41:80/",
         "backbone": false,
         "ws-tls": false,
         "fch-enabled": true,
@@ -177,7 +177,7 @@
     "WASEDA": {
         "name": "Waseda University",
         "shortname": "WASEDA",
-        "site": "http://133.9.73.66:80/",
+        "site": "http://133.9.67.98:80/",
         "backbone": false,
         "ws-tls": false,
         "fch-enabled": true,
@@ -233,7 +233,7 @@
     "NTNU": {
         "name": "Norwegian University of Science and Technology",
         "shortname": "NTNU",
-        "site": "http://129.241.208.115:80/",
+        "site": "http://129.241.209.52:80/",
         "backbone": false,
         "ws-tls": false,
         "fch-enabled": true,
@@ -251,7 +251,7 @@
     "UI": {
         "name": "University of Indonesia",
         "shortname": "UI",
-        "site": "http://152.118.148.103:80/",
+        "site": "http://152.118.101.159:80/",
         "backbone": false,
         "ws-tls": false,
         "fch-enabled": false,
@@ -389,7 +389,7 @@
     "MUMBAI_AWS": {
         "name": "MUMBAI gateway at AWS in Mumbai, India",
         "shortname": "MUMBAI_AWS",
-        "site": "http://35.154.157.78:80/",
+        "site": "http://13.126.132.174:80/",
         "backbone": false,
         "ws-tls": false,
         "fch-enabled": true,
