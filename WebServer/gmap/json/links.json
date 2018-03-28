@@ -681,18 +681,18 @@
         "id": 136,
         "nlsr_weight": 27,
         "start": "MINHO",
-        "end": "CARUNA"
+        "end": "CORUNA"
     },
     {
         "id": 137,
         "nlsr_weight": 17,
         "start": "URJC",
-        "end": "CARUNA"
+        "end": "CORUNA"
     },
     {
         "id": 138,
         "nlsr_weight": 40,
-        "start": "CARUNA",
+        "start": "CORUNA",
         "end": "CAGLIARI"
     }
 ]

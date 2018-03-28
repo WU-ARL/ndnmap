@@ -377,9 +377,9 @@
         "fch-enabled": true,
         "position": [ 39.1, 8.9]
     },
-    "CARUNA": {
-        "name": "Universidade da Caruna",
-        "shortname": "CARUNA",
+    "CORUNA": {
+        "name": "Universidade da Coruna",
+        "shortname": "CORUNA",
         "site": "http://193.144.50.247:80/",
         "backbone": false,
         "ws-tls": false,
