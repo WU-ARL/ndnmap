@@ -221,6 +221,15 @@
         "fch-enabled": true,
         "position": [ 42.1, 14.5]
     },
+    "AAU": {
+        "name": "Austrian Alpen-Adria-Universtat",
+        "shortname": "AAU",
+        "site": "http://ndn-itec.aau.at:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "fch-enabled": false,
+        "position": [ 46.7, 14.5]
+    },
     "PADUA": {
         "name": "University of Padua",
         "shortname": "PADUA",

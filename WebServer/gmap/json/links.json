@@ -694,5 +694,23 @@
         "nlsr_weight": 40,
         "start": "CORUNA",
         "end": "CAGLIARI"
+    },
+    {
+        "id": 139,
+        "nlsr_weight": 15,
+        "start": "AAU",
+        "end": "PADUA"
+    },
+    {
+        "id": 140,
+        "nlsr_weight": 16,
+        "start": "AAU",
+        "end": "BERN"
+    },
+    {
+        "id": 141,
+        "nlsr_weight": 16,
+        "start": "AAU",
+        "end": "BASEL"
     }
 ]
