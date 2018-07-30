@@ -42,7 +42,7 @@
         "site": "http://198.111.224.197:80/",
         "backbone": false,
         "ws-tls": false,
-        "fch-enabled": true,
+        "fch-enabled": false,
         "_real_position": [ 42.10260390, -80.23171080000002 ],
         "position": [ 42.50260390, -83.4 ]
     },
@@ -201,6 +201,15 @@
         "ws-tls": false,
         "fch-enabled": true,
         "position": [ 37.7, 127.00]
+    },
+    "GIST": {
+        "name": "Anyang University",
+        "shortname": "GIST",
+        "site": "http://103.22.221.33:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "fch-enabled": true,
+        "position": [ 35.4, 126.80]
     },
     "KISTI": {
         "name": "Korea Institute of Science and Technology Information",

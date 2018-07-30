@@ -712,5 +712,17 @@
         "nlsr_weight": 16,
         "start": "AAU",
         "end": "BASEL"
+    },
+    {
+        "id": 142,
+        "nlsr_weight": 4,
+        "start": "ANYANG",
+        "end": "GIST"
+    },
+    {
+        "id": 143,
+        "nlsr_weight": 2,
+        "start": "KISTI",
+        "end": "GIST"
     }
 ]
