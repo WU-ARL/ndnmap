@@ -724,5 +724,29 @@
         "nlsr_weight": 2,
         "start": "KISTI",
         "end": "GIST"
+    },
+    {
+        "id": 144,
+        "nlsr_weight": 2,
+        "start": "MINHO",
+        "end": "AVEIRO"
+    },
+    {
+        "id": 145,
+        "nlsr_weight": 4,
+        "start": "COPELABS",
+        "end": "AVEIRO"
+    },
+    {
+        "id": 146,
+        "nlsr_weight": 18,
+        "start": "SYSTEMX",
+        "end": "AVEIRO"
+    },
+    {
+        "id": 147,
+        "nlsr_weight": 45,
+        "start": "AFA",
+        "end": "AVEIRO"
     }
 ]

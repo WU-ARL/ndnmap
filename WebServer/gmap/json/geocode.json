@@ -266,6 +266,15 @@
         "fch-enabled": true,
         "position": [ 38.6, -9.0]
     },
+    "AVEIRO": {
+        "name": "University Aveiro",
+        "shortname": "AVEIRO",
+        "site": "http://selficn.av.it.pt:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "fch-enabled": false,
+        "position": [ 40.6, -9.0]
+    },
     "UI": {
         "name": "University of Indonesia",
         "shortname": "UI",
