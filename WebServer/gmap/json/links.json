@@ -748,5 +748,29 @@
         "nlsr_weight": 45,
         "start": "AFA",
         "end": "AVEIRO"
+    },
+    {
+        "id": 148,
+        "nlsr_weight": 50,
+        "start": "PADUA",
+        "end": "UNIVH2C"
+    },
+    {
+        "id": 149,
+        "nlsr_weight": 50,
+        "start": "COPELABS",
+        "end": "UNIVH2C"
+    },
+    {
+        "id": 150,
+        "nlsr_weight": 50,
+        "start": "CAGLIARI",
+        "end": "UNIVH2C"
+    },
+    {
+        "id": 151,
+        "nlsr_weight": 52,
+        "start": "URJC",
+        "end": "UNIVH2C"
     }
 ]
