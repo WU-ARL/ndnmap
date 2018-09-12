@@ -41,7 +41,7 @@
         "shortname": "MICH",
         "site": "http://198.111.224.197:80/",
         "backbone": false,
-        "ws-tls": false,
+        "ws-tls": true,
         "fch-enabled": false,
         "_real_position": [ 42.10260390, -80.23171080000002 ],
         "position": [ 42.50260390, -83.4 ]
@@ -51,7 +51,7 @@
         "shortname": "UIUC",
         "site": "http://ndnx.cs.illinois.edu:80/",
         "backbone": false,
-        "ws-tls": false,
+        "ws-tls": true,
         "fch-enabled": true,
         "_real_position": [ 40.10260390, -88.23171080000002 ],
         "position": [ 40.60260390, -88.23171080000002 ]
@@ -71,7 +71,7 @@
         "shortname": "REMAP",
         "site": "http://aleph.ndn.ucla.edu:80/",
         "backbone": false,
-        "ws-tls": false,
+        "ws-tls": true,
         "fch-enabled": true,
         "_real_position": [ 34.07282250, -118.43873980 ],
         "position": [ 34.4, -117.14807210 ]
@@ -81,7 +81,7 @@
         "shortname": "CAIDA",
         "site": "http://click.caida.org:80/",
         "backbone": false,
-        "ws-tls": false,
+        "ws-tls": true,
         "fch-enabled": true,
         "_real_position": [ 32.87357720, -117.23781110 ],
         "position": [ 31.87357720, -119.23781110 ]
@@ -101,7 +101,7 @@
         "shortname": "UCI",
         "site": "http://ndnhub.ics.uci.edu:80/",
         "backbone": false,
-        "ws-tls": false,
+        "ws-tls": true,
         "fch-enabled": true,
         "_real_position": [ 33.6495, -117.845798 ],
         "position": [ 33.1495, -118.145798 ]
@@ -131,7 +131,7 @@
         "shortname": "LIP6",
         "site": "http://132.227.62.163:80/",
         "backbone": false,
-        "ws-tls": false,
+        "ws-tls": true,
         "fch-enabled": true,
         "_real_position": [ 48.50, 2.21 ],
         "position": [ 48.50, 1.71 ]
@@ -141,7 +141,7 @@
         "shortname": "SYSTEMX",
         "site": "http://systemx-ndn-1.enst.fr:80/",
         "backbone": false,
-        "ws-tls": false,
+        "ws-tls": true,
         "fch-enabled": true,
         "_real_position": [ 48.71, 2.19],
         "position": [ 48.71, 3.19]
@@ -161,7 +161,7 @@
         "shortname": "BASEL",
         "site": "http://192.43.193.111:80/",
         "backbone": false,
-        "ws-tls": false,
+        "ws-tls": true,
         "fch-enabled": true,
         "position": [ 47.55858, 7.58360]
     },
@@ -253,7 +253,7 @@
         "shortname": "NTNU",
         "site": "http://129.241.209.52:80/",
         "backbone": false,
-        "ws-tls": false,
+        "ws-tls": true,
         "fch-enabled": true,
         "position": [ 63.5, 10.5]
     },
@@ -262,7 +262,7 @@
         "shortname": "COPELABS",
         "site": "http://193.137.75.171:80/",
         "backbone": false,
-        "ws-tls": false,
+        "ws-tls": true,
         "fch-enabled": true,
         "position": [ 38.6, -9.0]
     },
@@ -308,7 +308,7 @@
         "shortname": "MINHO",
         "site": "http://netlab.gcom.di.uminho.pt:80/",
         "backbone": false,
-        "ws-tls": false,
+        "ws-tls": true,
         "fch-enabled": true,
         "position": [ 41.8, -8.2]
     },
@@ -409,7 +409,7 @@
         "shortname": "CORUNA",
         "site": "http://193.144.50.247:80/",
         "backbone": false,
-        "ws-tls": false,
+        "ws-tls": true,
         "fch-enabled": true,
         "position": [ 43.3, -8.2]
     },
