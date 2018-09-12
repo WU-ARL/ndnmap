@@ -262,7 +262,7 @@
         "shortname": "COPELABS",
         "site": "http://193.137.75.171:80/",
         "backbone": false,
-        "ws-tls": true,
+        "ws-tls": false,
         "fch-enabled": true,
         "position": [ 38.6, -9.0]
     },
