@@ -778,5 +778,11 @@
         "nlsr_weight": 122,
         "start": "WU",
         "end": "MUMBAI_AWS"
+    },
+    {
+        "id": 153,
+        "nlsr_weight": 25,
+        "start": "UCLA",
+        "end": "ARIZONA"
     }
 ]
