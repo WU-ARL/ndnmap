@@ -71,7 +71,7 @@
         "shortname": "REMAP",
         "site": "http://aleph.ndn.ucla.edu:80/",
         "backbone": false,
-        "ws-tls": true,
+        "ws-tls": false,
         "fch-enabled": true,
         "_real_position": [ 34.07282250, -118.43873980 ],
         "position": [ 34.4, -117.14807210 ]
@@ -81,7 +81,7 @@
         "shortname": "CAIDA",
         "site": "http://click.caida.org:80/",
         "backbone": false,
-        "ws-tls": true,
+        "ws-tls": false,
         "fch-enabled": true,
         "_real_position": [ 32.87357720, -117.23781110 ],
         "position": [ 31.87357720, -119.23781110 ]
@@ -141,7 +141,7 @@
         "shortname": "SYSTEMX",
         "site": "http://systemx-ndn-1.enst.fr:80/",
         "backbone": false,
-        "ws-tls": true,
+        "ws-tls": false,
         "fch-enabled": true,
         "_real_position": [ 48.71, 2.19],
         "position": [ 48.71, 3.19]
