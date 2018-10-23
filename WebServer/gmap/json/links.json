@@ -772,5 +772,11 @@
         "nlsr_weight": 52,
         "start": "URJC",
         "end": "UNIVH2C"
+    },
+    {
+        "id": 152,
+        "nlsr_weight": 122,
+        "start": "WU",
+        "end": "MUMBAI_AWS"
     }
 ]
