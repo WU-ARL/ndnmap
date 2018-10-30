@@ -784,5 +784,41 @@
         "nlsr_weight": 25,
         "start": "UCLA",
         "end": "ARIZONA"
+    },
+    {
+        "id": 154,
+        "nlsr_weight": 25,
+        "start": "UCI",
+        "end": "ARIZONA"
+    },
+    {
+        "id": 155,
+        "nlsr_weight": 75,
+        "start": "WU",
+        "end": "AVEIRO"
+    },
+    {
+        "id": 156,
+        "nlsr_weight": 75,
+        "start": "WU",
+        "end": "UNIVH2C"
+    },
+    {
+        "id": 157,
+        "nlsr_weight": 65,
+        "start": "WU",
+        "end": "UFPA"
+    },
+    {
+        "id": 158,
+        "nlsr_weight": 125,
+        "start": "UNIVH2C",
+        "end": "UFPA"
+    },
+    {
+        "id": 159,
+        "nlsr_weight": 15,
+        "start": "AVEIRO",
+        "end": "URJC"
     }
 ]
