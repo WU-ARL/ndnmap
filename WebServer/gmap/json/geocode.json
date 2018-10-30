@@ -14,7 +14,7 @@
         "site": "http://mccoy.netsec.colostate.edu:80/",
         "backbone": false,
         "ws-tls": false,
-        "fch-enabled": true,
+        "fch-enabled": false,
         "position": [ 40.57471750, -105.08482930 ]
     },
     "UM": {
@@ -23,7 +23,7 @@
         "site": "http://titan.cs.memphis.edu:80/",
         "backbone": false,
         "ws-tls": false,
-        "fch-enabled": false,
+        "fch-enabled": true,
         "position": [ 35.11860990, -89.93700109999999 ]
     },
     "NEU": {
@@ -32,7 +32,7 @@
         "site": "http://129.10.224.42:80/",
         "backbone": false,        
         "ws-tls": false,
-        "fch-enabled": true,
+        "fch-enabled": false,
         "_real_position": [ 42.33987830, -71.08873579999999 ],
         "position": [ 42.7, -71.08873579999999 ]
     },
@@ -42,7 +42,7 @@
         "site": "http://198.111.224.197:80/",
         "backbone": false,
         "ws-tls": true,
-        "fch-enabled": false,
+        "fch-enabled": true,
         "_real_position": [ 42.10260390, -80.23171080000002 ],
         "position": [ 42.50260390, -83.4 ]
     },
@@ -72,7 +72,7 @@
         "site": "http://aleph.ndn.ucla.edu:80/",
         "backbone": false,
         "ws-tls": false,
-        "fch-enabled": true,
+        "fch-enabled": false,
         "_real_position": [ 34.07282250, -118.43873980 ],
         "position": [ 34.4, -117.14807210 ]
     },
@@ -82,7 +82,7 @@
         "site": "http://click.caida.org:80/",
         "backbone": false,
         "ws-tls": false,
-        "fch-enabled": true,
+        "fch-enabled": false,
         "_real_position": [ 32.87357720, -117.23781110 ],
         "position": [ 31.87357720, -119.23781110 ]
     },
@@ -142,7 +142,7 @@
         "site": "http://systemx-ndn-1.enst.fr:80/",
         "backbone": false,
         "ws-tls": false,
-        "fch-enabled": true,
+        "fch-enabled": false,
         "_real_position": [ 48.71, 2.19],
         "position": [ 48.71, 3.19]
     },
@@ -208,7 +208,7 @@
         "site": "http://103.22.221.33:80/",
         "backbone": false,
         "ws-tls": false,
-        "fch-enabled": true,
+        "fch-enabled": false,
         "position": [ 35.4, 126.80]
     },
     "KISTI": {
@@ -245,7 +245,7 @@
         "site": "http://ndnnode.math.unipd.it:80/",
         "backbone": false,
         "ws-tls": false,
-        "fch-enabled": true,
+        "fch-enabled": false,
         "position": [ 45.35858, 11.78360]
     },
     "NTNU": {
@@ -263,7 +263,7 @@
         "site": "http://193.137.75.171:80/",
         "backbone": false,
         "ws-tls": false,
-        "fch-enabled": true,
+        "fch-enabled": false,
         "position": [ 38.6, -9.0]
     },
     "AVEIRO": {
@@ -309,7 +309,7 @@
         "site": "http://netlab.gcom.di.uminho.pt:80/",
         "backbone": false,
         "ws-tls": true,
-        "fch-enabled": true,
+        "fch-enabled": false,
         "position": [ 41.8, -8.2]
     },
     "NIST": {
@@ -327,7 +327,7 @@
         "site": "http://200.239.93.10:80/",
         "backbone": false,
         "ws-tls": false,
-        "fch-enabled": true,
+        "fch-enabled": false,
         "position": [ -3.7, -49.6 ]
     },
     "SRRU": {
@@ -354,7 +354,7 @@
         "site": "http://202.28.34.249:80/",
         "backbone": false,
         "ws-tls": false,
-        "fch-enabled": true,
+        "fch-enabled": false,
         "position": [ 17.3, 103.7 ]
     },
     "PKUSZ": {
@@ -363,7 +363,7 @@
         "site": "http://219.223.222.5:80/",
         "backbone": false,
         "ws-tls": false,
-        "fch-enabled": true,
+        "fch-enabled": false,
         "_real_position": [ 23.0, 114.0 ],
         "position": [ 23.0, 114.0 ]
     },
@@ -419,7 +419,7 @@
         "site": "http://196.200.164.99:80/",
         "backbone": false,
         "ws-tls": false,
-        "fch-enabled": true,
+        "fch-enabled": false,
         "position": [ 33.5, -7.2]
     },
     "MUMBAI_AWS": {
