@@ -823,7 +823,7 @@
     },
     {
         "id": 160,
-        "nlsr_weight": 15,
+        "nlsr_weight": 30,
         "start": "UCLA",
         "end": "WU"
     }
