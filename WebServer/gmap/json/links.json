@@ -783,13 +783,13 @@
         "id": 153,
         "nlsr_weight": 25,
         "start": "UCLA",
-        "end": "ARIZONA"
+        "end": "UA"
     },
     {
         "id": 154,
         "nlsr_weight": 25,
         "start": "UCI",
-        "end": "ARIZONA"
+        "end": "UA"
     },
     {
         "id": 155,
