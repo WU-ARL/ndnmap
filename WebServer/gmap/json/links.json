@@ -820,5 +820,11 @@
         "nlsr_weight": 15,
         "start": "AVEIRO",
         "end": "URJC"
+    },
+    {
+        "id": 160,
+        "nlsr_weight": 15,
+        "start": "UCLA",
+        "end": "WU"
     }
 ]
