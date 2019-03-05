@@ -826,5 +826,17 @@
         "nlsr_weight": 30,
         "start": "UCLA",
         "end": "WU"
+    },
+    {
+        "id": 161,
+        "nlsr_weight": 15,
+        "start": "NEU",
+        "end": "SAVI"
+    },
+    {
+        "id": 162,
+        "nlsr_weight": 15,
+        "start": "MICH",
+        "end": "SAVI"
     }
 ]

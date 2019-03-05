@@ -422,6 +422,15 @@
         "fch-enabled": false,
         "position": [ 33.5, -7.2]
     },
+    "SAVI": {
+        "name": "SAVI, University of Toronto",
+        "shortname": "SAVI",
+        "site": "http://142.150.208.242:80/",
+        "backbone": false,
+        "ws-tls": false,
+        "fch-enabled": false,
+        "position": [ 43.6, -79.4 ]
+    },
     "MUMBAI_AWS": {
         "name": "MUMBAI gateway at AWS in Mumbai, India",
         "shortname": "MUMBAI_AWS",
@@ -475,7 +484,8 @@
         "backbone": false,
         "ws-tls": false,
         "fch-enabled": false,
-        "position": [ 43.6, -79.4 ]
+        "_real_position": [ 43.6, -79.4 ],
+        "position": [ 44.6, -78.4 ]
     },
     "AWS-EU-W-1": {
         "name": "AWS EU West 1 Region, Ireland",
