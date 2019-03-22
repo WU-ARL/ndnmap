@@ -838,5 +838,29 @@
         "nlsr_weight": 15,
         "start": "MICH",
         "end": "SAVI"
+    },
+    {
+        "id": 163,
+        "nlsr_weight": 4,
+        "start": "LIP6",
+        "end": "LACL"
+    },
+    {
+        "id": 164,
+        "nlsr_weight": 4,
+        "start": "SYSTEMX",
+        "end": "LACL"
+    },
+    {
+        "id": 165,
+        "nlsr_weight": 18,
+        "start": "BERN",
+        "end": "LACL"
+    },
+    {
+        "id": 166,
+        "nlsr_weight": 50,
+        "start": "UNIVH2C",
+        "end": "LACL"
     }
 ]

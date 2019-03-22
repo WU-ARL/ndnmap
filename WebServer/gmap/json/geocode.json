@@ -5,6 +5,7 @@
         "site": "http://hobo.cs.arizona.edu:80/",
         "backbone": false,
         "ws-tls": true,
+        "prefix": "ndn:/ndn/edu/arizona",
         "fch-enabled": true,
         "position": [ 32.22896140, -110.94832260 ]
     },
@@ -14,7 +15,8 @@
         "site": "http://mccoy.netsec.colostate.edu:80/",
         "backbone": false,
         "ws-tls": false,
-        "fch-enabled": false,
+        "prefix": "ndn:/ndn/edu/colostate",
+        "fch-enabled": true,
         "position": [ 40.57471750, -105.08482930 ]
     },
     "UM": {
@@ -23,15 +25,17 @@
         "site": "http://titan.cs.memphis.edu:80/",
         "backbone": false,
         "ws-tls": false,
-        "fch-enabled": true,
+        "prefix": "ndn:/ndn/edu/memphis",
+        "fch-enabled": false,
         "position": [ 35.11860990, -89.93700109999999 ]
     },
     "NEU": {
         "name": "Northeastern University",
         "shortname": "NEU",
-        "site": "http://129.10.224.42:80/",
+        "site": "http://neu.testbed.named-data.net:80/",
         "backbone": false,        
         "ws-tls": false,
+        "prefix": "ndn:/ndn/edu/neu",
         "fch-enabled": false,
         "_real_position": [ 42.33987830, -71.08873579999999 ],
         "position": [ 42.7, -71.08873579999999 ]
@@ -39,9 +43,10 @@
     "MICH": {
         "name": "University Michigan",
         "shortname": "MICH",
-        "site": "http://198.111.224.197:80/",
+        "site": "http://michigan.testbed.named-data.net:80/",
         "backbone": false,
         "ws-tls": true,
+        "prefix": "ndn:/ndn/edu/umich",
         "fch-enabled": true,
         "_real_position": [ 42.10260390, -80.23171080000002 ],
         "position": [ 42.50260390, -83.4 ]
@@ -52,7 +57,8 @@
         "site": "http://ndnx.cs.illinois.edu:80/",
         "backbone": false,
         "ws-tls": true,
-        "fch-enabled": true,
+        "prefix": "ndn:/ndn/edu/illinois",
+        "fch-enabled": false,
         "_real_position": [ 40.10260390, -88.23171080000002 ],
         "position": [ 40.60260390, -88.23171080000002 ]
     },
@@ -62,6 +68,7 @@
         "site": "http://spurs.cs.ucla.edu:80/",
         "backbone": false,
         "ws-tls": true,
+        "prefix": "ndn:/ndn/edu/ucla",
         "fch-enabled": true,
         "_real_position": [ 34.07282250, -118.43873980 ],
         "position": [ 35.5, -120 ]
@@ -72,6 +79,7 @@
         "site": "http://aleph.ndn.ucla.edu:80/",
         "backbone": false,
         "ws-tls": false,
+        "prefix": "ndn:/ndn/edu/ucla/remap",
         "fch-enabled": false,
         "_real_position": [ 34.07282250, -118.43873980 ],
         "position": [ 34.4, -117.14807210 ]
@@ -82,6 +90,7 @@
         "site": "http://click.caida.org:80/",
         "backbone": false,
         "ws-tls": false,
+        "prefix": "ndn:/ndn/org/caida",
         "fch-enabled": false,
         "_real_position": [ 32.87357720, -117.23781110 ],
         "position": [ 31.87357720, -119.23781110 ]
@@ -92,7 +101,8 @@
         "site": "http://wundngw.arl.wustl.edu:80/",
         "backbone": false,
         "ws-tls": true,
-        "fch-enabled": true,
+        "prefix": "ndn:/ndn/edu/wustl",
+        "fch-enabled": false,
         "_real_position": [ 38.64907010, -90.30334710 ],
         "position": [ 38.14907010, -90.30334710 ]
     },
@@ -102,6 +112,7 @@
         "site": "http://ndnhub.ics.uci.edu:80/",
         "backbone": false,
         "ws-tls": true,
+        "prefix": "ndn:/ndn/edu/uci",
         "fch-enabled": true,
         "_real_position": [ 33.6495, -117.845798 ],
         "position": [ 33.1495, -118.145798 ]
@@ -109,9 +120,10 @@
     "BUPT": {
         "name": "Beijing University of Posts and Telecommunications",
         "shortname": "BUPT",
-        "site": "http://114.247.165.44:8080/",
+        "site": "http://bupt.testbed.named-data.net:8080/",
         "backbone": false,
         "ws-tls": false,
+        "prefix": "ndn:/ndn/cn/edu/bupt",
         "fch-enabled": false,
         "_real_position": [ 39.59, 116.18 ],
         "position": [ 37.40, 114.18 ]
@@ -119,19 +131,21 @@
     "TONGJI": {
         "name": "Tongji University",
         "shortname": "TONGJI",
-        "site": "http://202.120.188.246:10421/",
+        "site": "http://tongji.testbed.named-data.net:10421/",
         "backbone": false,
         "ws-tls": false,
-        "fch-enabled": false,
+        "prefix": "ndn:/ndn/cn/edu/tongji",
+        "fch-enabled": true,
         "_real_position": [ 31.12, 121.30 ],
         "position": [ 31.12, 121.30 ]
     },
     "LIP6": {
         "name": "University Pierre et Marie Curie, Sorbonne Universities LIP6",
         "shortname": "LIP6",
-        "site": "http://132.227.62.163:80/",
+        "site": "http://ndnhub.ipv6.lip6.fr:80/",
         "backbone": false,
         "ws-tls": true,
+        "prefix": "ndn:/ndn/fr/lip6",
         "fch-enabled": true,
         "_real_position": [ 48.50, 2.21 ],
         "position": [ 48.50, 1.71 ]
@@ -142,16 +156,18 @@
         "site": "http://systemx-ndn-1.enst.fr:80/",
         "backbone": false,
         "ws-tls": false,
-        "fch-enabled": false,
+        "prefix": "ndn:/ndn/fr/irt-systemx",
+        "fch-enabled": true,
         "_real_position": [ 48.71, 2.19],
         "position": [ 48.71, 3.19]
     },
     "URJC": {
         "name": "Universidad Rey Juan Carlos (King Juan Carlos University)",
         "shortname": "URJC",
-        "site": "http://193.147.79.41:80/",
+        "site": "http://insula.gsyc.es:80/",
         "backbone": false,
         "ws-tls": false,
+        "prefix": "ndn:/ndn/es/urjc",
         "fch-enabled": true,
         "_real_position": [ 40.3359, -3.8732],
         "position": [ 41.3359, -3.8732]
@@ -159,27 +175,30 @@
     "BASEL": {
         "name": "University of Basel",
         "shortname": "BASEL",
-        "site": "http://192.43.193.111:80/",
+        "site": "http://dmi-ndn-testbed1.dmi.unibas.ch:80/",
         "backbone": false,
         "ws-tls": true,
+        "prefix": "ndn:/ndn/ch/unibas",
         "fch-enabled": true,
         "position": [ 47.55858, 7.58360]
     },
     "BERN": {
         "name": "University of Bern",
         "shortname": "BERN",
-        "site": "http://130.92.70.172:80/",
+        "site": "http://os-float172.cnds.unibe.ch:80/",
         "backbone": false,
         "ws-tls": false,
+        "prefix": "ndn:/ndn/ch/unibe",
         "fch-enabled": true,
         "position": [ 46.8, 8.58360]
     },
     "WASEDA": {
         "name": "Waseda University",
         "shortname": "WASEDA",
-        "site": "http://133.9.67.98:80/",
+        "site": "http://ndn-tb.nz.comm.waseda.ac.jp:80/",
         "backbone": false,
         "ws-tls": false,
+        "prefix": "ndn:/ndn/jp/waseda",
         "fch-enabled": true,
         "_real_position": [ 35.7092, 139.7193],
         "position": [ 35.8092, 139.7193]
@@ -190,15 +209,17 @@
         "site": "http://pasta10.cs.byu.edu:80/",
         "backbone": false,
         "ws-tls": false,
+        "prefix": "ndn:/ndn/edu/byu",
         "fch-enabled": false,
         "position": [ 40.14, -111.39]
     },
     "ANYANG": {
         "name": "Anyang University",
         "shortname": "ANYANG",
-        "site": "http://210.114.89.49:80/",
+        "site": "http://anyang.testbed.named-data.net:80/",
         "backbone": false,
         "ws-tls": false,
+        "prefix": "ndn:/ndn/kr/anyang",
         "fch-enabled": true,
         "position": [ 37.7, 127.00]
     },
@@ -208,15 +229,17 @@
         "site": "http://103.22.221.33:80/",
         "backbone": false,
         "ws-tls": false,
+        "prefix": "ndn:/ndn/kr/ac/gist",
         "fch-enabled": false,
         "position": [ 35.4, 126.80]
     },
     "KISTI": {
         "name": "Korea Institute of Science and Technology Information",
         "shortname": "KISTI",
-        "site": "http://203.253.235.168:80/",
+        "site": "http://kisti.testbed.named-data.net:80/",
         "backbone": false,
         "ws-tls": false,
+        "prefix": "ndn:/ndn/kr/re/kisti",
         "fch-enabled": true,
         "_real_position": [ 36.8, 127.50],
         "position": [ 36.0, 127.50]
@@ -224,10 +247,11 @@
     "AFA": {
         "name": "AFA Systems",
         "shortname": "AFA",
-        "site": "http://93.42.157.82:80/",
+        "site": "http://93-42-157-82.ip87.fastwebnet.it:80/",
         "backbone": false,
         "ws-tls": false,
-        "fch-enabled": true,
+        "prefix": "ndn:/ndn/it/afasystems",
+        "fch-enabled": false,
         "position": [ 42.1, 14.5]
     },
     "AAU": {
@@ -236,7 +260,8 @@
         "site": "http://ndn-itec.aau.at:80/",
         "backbone": false,
         "ws-tls": false,
-        "fch-enabled": false,
+        "prefix": "ndn:/ndn/at/aau",
+        "fch-enabled": true,
         "position": [ 46.7, 14.5]
     },
     "PADUA": {
@@ -245,24 +270,27 @@
         "site": "http://ndnnode.math.unipd.it:80/",
         "backbone": false,
         "ws-tls": false,
-        "fch-enabled": false,
+        "prefix": "ndn:/ndn/it/unipd",
+        "fch-enabled": true,
         "position": [ 45.35858, 11.78360]
     },
     "NTNU": {
         "name": "Norwegian University of Science and Technology",
         "shortname": "NTNU",
-        "site": "http://129.241.209.52:80/",
+        "site": "http://ndn.item.ntnu.no5522:80/",
         "backbone": false,
         "ws-tls": true,
-        "fch-enabled": true,
+        "prefix": "ndn:/ndn/no/ntnu",
+        "fch-enabled": false,
         "position": [ 63.5, 10.5]
     },
     "COPELABS": {
         "name": "COPELABS, University Lusofona",
         "shortname": "COPELABS",
-        "site": "http://193.137.75.171:80/",
+        "site": "http://copelabs.testbed.named-data.net:80/",
         "backbone": false,
         "ws-tls": false,
+        "prefix": "ndn:/ndn/pt/ulusofona/copelabs",
         "fch-enabled": false,
         "position": [ 38.6, -9.0]
     },
@@ -272,33 +300,37 @@
         "site": "http://selficn.av.it.pt:80/",
         "backbone": false,
         "ws-tls": false,
-        "fch-enabled": false,
+        "prefix": "ndn:/ndn/pt/it/av",
+        "fch-enabled": true,
         "position": [ 40.6, -9.0]
     },
     "UI": {
         "name": "University of Indonesia",
         "shortname": "UI",
-        "site": "http://152.118.101.159:80/",
+        "site": "http://indonesia.testbed.named-data.net:80/",
         "backbone": false,
         "ws-tls": false,
+        "prefix": "ndn:/ndn/id/ac/ui",
         "fch-enabled": false,
         "position": [ -6.0, 106.8 ]
     },
     "GOETTINGEN": {
         "name": "Goettingen University ",
         "shortname": "GOETTINGEN",
-        "site": "http://134.76.249.235:80/",
+        "site": "http://k.extra.informatik.uni-goettingen.de:80/",
         "backbone": false,
         "ws-tls": false,
+        "prefix": "ndn:/ndn/de/uni-goettingen",
         "fch-enabled": true,
         "position": [ 52.05858, 9.58360]
     },
     "OSAKA": {
         "name": "Osaka University",
         "shortname": "OSAKA",
-        "site": "http://133.1.17.51:80/",
+        "site": "http://ndn.ist.osaka-u.ac.jp.51:80/",
         "backbone": false,
         "ws-tls": false,
+        "prefix": "ndn:/ndn/jp/ac/osaka-u",
         "fch-enabled": true,
         "position": [ 34.3, 135.7193],
         "_real_position": [ 34.72, 135.5193]
@@ -309,7 +341,8 @@
         "site": "http://netlab.gcom.di.uminho.pt:80/",
         "backbone": false,
         "ws-tls": true,
-        "fch-enabled": false,
+        "prefix": "ndn:/ndn/pt/uminho",
+        "fch-enabled": true,
         "position": [ 41.8, -8.2]
     },
     "NIST": {
@@ -318,51 +351,57 @@
         "site": "https://ndn-01.antd.nist.gov/",
         "backbone": false,
         "ws-tls": false,
+        "prefix": "ndn:/ndn/gov/nist",
         "fch-enabled": false,
         "position": [ 39.14907010, -76.5 ]
     },
     "UFPA": {
         "name": "Federal University of Para, Brazil",
         "shortname": "UFPA",
-        "site": "http://200.239.93.10:80/",
+        "site": "http://ufpa.testbed.named-data.net:80/",
         "backbone": false,
         "ws-tls": false,
+        "prefix": "ndn:/ndn/br/ufpa",
         "fch-enabled": false,
         "position": [ -3.7, -49.6 ]
     },
     "SRRU": {
         "name": "Surindra Rajabhat University, Thailand",
         "shortname": "SRRU",
-        "site": "http://202.29.30.31:80/",
+        "site": "http://comsci2.srru.ac.t:80/",
         "backbone": false,
         "ws-tls": false,
-        "fch-enabled": true,
+        "prefix": "ndn:/ndn/th/ac/srru",
+        "fch-enabled": false,
         "position": [ 15.3, 103.7 ]
     },
     "TNO": {
         "name": "Netherlands Organization for Applied Scientific Research",
         "shortname": "TNO",
-        "site": "http://134.221.116.42:80/",
+        "site": "http://tno.testbed.named-data.net:80/",
         "backbone": false,
         "ws-tls": false,
+        "prefix": "ndn:/ndn/nl/tno",
         "fch-enabled": true,
         "position": [ 52.05858, 4.0]
     },
     "MSU": {
         "name": "Mahasarakham University, Thailand",
         "shortname": "MSU",
-        "site": "http://202.28.34.249:80/",
+        "site": "http://msu.testbed.named-data.net:80/",
         "backbone": false,
         "ws-tls": false,
+        "prefix": "ndn:/ndn/th/ac/msu",
         "fch-enabled": false,
         "position": [ 17.3, 103.7 ]
     },
     "PKUSZ": {
         "name": "Peking University Shenzhen Graduate School",
         "shortname": "PKUSZ",
-        "site": "http://219.223.222.5:80/",
+        "site": "http://pkusz.testbed.named-data.net:80/",
         "backbone": false,
         "ws-tls": false,
+        "prefix": "ndn:/ndn/cn/edu/pkusz",
         "fch-enabled": false,
         "_real_position": [ 23.0, 114.0 ],
         "position": [ 23.0, 114.0 ]
@@ -370,9 +409,10 @@
     "CNIC": {
         "name": "Computer Network Information Center, Chinese Academy of Sciences",
         "shortname": "CNIC",
-        "site": "http://159.226.186.32:80/",
+        "site": "http://cnic.testbed.named-data.net:80/",
         "backbone": false,
         "ws-tls": false,
+        "prefix": "ndn:/ndn/cn/cas/cnic",
         "fch-enabled": false,
         "_real_position": [ 39.59, 116.18 ],
         "position": [ 40.0, 112.0 ]
@@ -380,36 +420,40 @@
     "UUM": {
         "name": "Universiti Utara Malaysia",
         "shortname": "UUM",
-        "site": "http://203.80.17.88:80/",
+        "site": "http://uum.testbed.named-data.net:80/",
         "backbone": false,
         "ws-tls": false,
-        "fch-enabled": true,
+        "prefix": "ndn:/ndn/my/edu/uum",
+        "fch-enabled": false,
         "position": [ 6.6, 100.3 ]
     },
     "UASLP": {
         "name": "Universidad Autónoma de San Luis Potosí",
         "shortname": "UASLP",
-        "site": "http://148.224.92.99:80/",
+        "site": "http://uaslp.testbed.named-data.net:80/",
         "backbone": false,
         "ws-tls": false,
+        "prefix": "ndn:/ndn/mx/uaslp",
         "fch-enabled": true,
         "position": [ 22.0, -100.5]
     },
     "CAGLIARI": {
         "name": "Universita degli Sudi di Cagliari",
         "shortname": "CAGLIARI",
-        "site": "http://192.167.131.70:80/",
+        "site": "http://lumiere.diee.unica.it:80/",
         "backbone": false,
         "ws-tls": false,
-        "fch-enabled": true,
+        "prefix": "ndn:/ndn/it/unica",
+        "fch-enabled": false,
         "position": [ 39.1, 8.9]
     },
     "CORUNA": {
         "name": "Universidade da Coruna",
         "shortname": "CORUNA",
-        "site": "http://193.144.50.247:80/",
+        "site": "http://ndn.gtec.udc.es:80/",
         "backbone": false,
         "ws-tls": true,
+        "prefix": "ndn:/ndn/es/udc",
         "fch-enabled": true,
         "position": [ 43.3, -8.2]
     },
@@ -419,6 +463,7 @@
         "site": "http://196.200.164.99:80/",
         "backbone": false,
         "ws-tls": false,
+        "prefix": "ndn:/ndn/ma/univh2c",
         "fch-enabled": false,
         "position": [ 33.5, -7.2]
     },
@@ -428,15 +473,28 @@
         "site": "http://142.150.208.242:80/",
         "backbone": false,
         "ws-tls": false,
-        "fch-enabled": false,
+        "prefix": "ndn:/ndn/ca/utoronto",
+        "fch-enabled": true,
         "position": [ 43.6, -79.4 ]
+    },
+    "LACL": {
+        "name": "Laboratoire D'Algorithmique, Complexite et Logique (LACL), Universite Paris-Est Creteil",
+        "shortname": "LACL",
+        "site": "http://ndn.lacl.fr:80/",
+        "backbone": false,
+        "ws-tls": true,
+        "prefix": "ndn:/ndn/fr/lacl",
+        "fch-enabled": false,
+        "_real_position": [ 48.50, 2.21 ],
+        "position": [ 47.50, 2.50 ]
     },
     "MUMBAI_AWS": {
         "name": "MUMBAI gateway at AWS in Mumbai, India",
         "shortname": "MUMBAI_AWS",
-        "site": "http://13.126.132.174:80/",
+        "site": "http://mumbai.testbed.named-data.net:80/",
         "backbone": false,
         "ws-tls": false,
+        "prefix": "ndn:/ndn/aws/mumbai",
         "fch-enabled": true,
         "position": [ 19.0, 73.2 ]
     },
