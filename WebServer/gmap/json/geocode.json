@@ -64,7 +64,7 @@
         "ws-tls": true,
         "prefix": "ndn:/ndn/edu/illinois",
         "fch-enabled": false,
-        "ndn-up": true,
+        "ndn-up": false,
         "_real_position": [ 40.10260390, -88.23171080000002 ],
         "position": [ 40.60260390, -88.23171080000002 ]
     },
@@ -88,7 +88,7 @@
         "ws-tls": false,
         "prefix": "ndn:/ndn/edu/ucla/remap",
         "fch-enabled": false,
-        "ndn-up": true,
+        "ndn-up": false,
         "_real_position": [ 34.07282250, -118.43873980 ],
         "position": [ 34.4, -117.14807210 ]
     },
@@ -100,7 +100,7 @@
         "ws-tls": false,
         "prefix": "ndn:/ndn/org/caida",
         "fch-enabled": false,
-        "ndn-up": true,
+        "ndn-up": false,
         "_real_position": [ 32.87357720, -117.23781110 ],
         "position": [ 31.87357720, -119.23781110 ]
     },
@@ -136,7 +136,7 @@
         "ws-tls": false,
         "prefix": "ndn:/ndn/cn/edu/bupt",
         "fch-enabled": false,
-        "ndn-up": true,
+        "ndn-up": false,
         "_real_position": [ 39.59, 116.18 ],
         "position": [ 37.40, 114.18 ]
     },
@@ -148,7 +148,7 @@
         "ws-tls": false,
         "prefix": "ndn:/ndn/cn/edu/tongji",
         "fch-enabled": true,
-        "ndn-up": true,
+        "ndn-up": false,
         "_real_position": [ 31.12, 121.30 ],
         "position": [ 31.12, 121.30 ]
     },
@@ -172,7 +172,7 @@
         "ws-tls": false,
         "prefix": "ndn:/ndn/fr/irt-systemx",
         "fch-enabled": true,
-        "ndn-up": true,
+        "ndn-up": false,
         "_real_position": [ 48.71, 2.19],
         "position": [ 48.71, 3.19]
     },
@@ -230,7 +230,7 @@
         "ws-tls": false,
         "prefix": "ndn:/ndn/edu/byu",
         "fch-enabled": false,
-        "ndn-up": true,
+        "ndn-up": false,
         "position": [ 40.14, -111.39]
     },
     "ANYANG": {
@@ -252,7 +252,7 @@
         "ws-tls": false,
         "prefix": "ndn:/ndn/kr/ac/gist",
         "fch-enabled": false,
-        "ndn-up": true,
+        "ndn-up": false,
         "position": [ 35.4, 126.80]
     },
     "KISTI": {
@@ -275,7 +275,7 @@
         "ws-tls": false,
         "prefix": "ndn:/ndn/it/afasystems",
         "fch-enabled": false,
-        "ndn-up": true,
+        "ndn-up": false,
         "position": [ 42.1, 14.5]
     },
     "AAU": {
@@ -308,7 +308,7 @@
         "ws-tls": true,
         "prefix": "ndn:/ndn/no/ntnu",
         "fch-enabled": false,
-        "ndn-up": true,
+        "ndn-up": false,
         "position": [ 63.5, 10.5]
     },
     "COPELABS": {
@@ -319,7 +319,7 @@
         "ws-tls": false,
         "prefix": "ndn:/ndn/pt/ulusofona/copelabs",
         "fch-enabled": false,
-        "ndn-up": true,
+        "ndn-up": false,
         "position": [ 38.6, -9.0]
     },
     "AVEIRO": {
@@ -341,7 +341,7 @@
         "ws-tls": false,
         "prefix": "ndn:/ndn/id/ac/ui",
         "fch-enabled": false,
-        "ndn-up": true,
+        "ndn-up": false,
         "position": [ -6.0, 106.8 ]
     },
     "GOETTINGEN": {
@@ -375,7 +375,7 @@
         "ws-tls": true,
         "prefix": "ndn:/ndn/pt/uminho",
         "fch-enabled": true,
-        "ndn-up": true,
+        "ndn-up": false,
         "position": [ 41.8, -8.2]
     },
     "NIST": {
@@ -386,7 +386,7 @@
         "ws-tls": false,
         "prefix": "ndn:/ndn/gov/nist",
         "fch-enabled": false,
-        "ndn-up": true,
+        "ndn-up": false,
         "position": [ 39.14907010, -76.5 ]
     },
     "UFPA": {
@@ -397,7 +397,7 @@
         "ws-tls": false,
         "prefix": "ndn:/ndn/br/ufpa",
         "fch-enabled": false,
-        "ndn-up": true,
+        "ndn-up": false,
         "position": [ -3.7, -49.6 ]
     },
     "SRRU": {
@@ -408,7 +408,7 @@
         "ws-tls": false,
         "prefix": "ndn:/ndn/th/ac/srru",
         "fch-enabled": false,
-        "ndn-up": true,
+        "ndn-up": false,
         "position": [ 15.3, 103.7 ]
     },
     "TNO": {
@@ -430,7 +430,7 @@
         "ws-tls": false,
         "prefix": "ndn:/ndn/th/ac/msu",
         "fch-enabled": false,
-        "ndn-up": true,
+        "ndn-up": false,
         "position": [ 17.3, 103.7 ]
     },
     "PKUSZ": {
@@ -441,7 +441,7 @@
         "ws-tls": false,
         "prefix": "ndn:/ndn/cn/edu/pkusz",
         "fch-enabled": false,
-        "ndn-up": true,
+        "ndn-up": false,
         "_real_position": [ 23.0, 114.0 ],
         "position": [ 23.0, 114.0 ]
     },
@@ -531,7 +531,7 @@
         "ws-tls": true,
         "prefix": "ndn:/ndn/fr/lacl",
         "fch-enabled": false,
-        "ndn-up": true,
+        "ndn-up": false,
         "_real_position": [ 48.50, 2.21 ],
         "position": [ 47.50, 2.50 ]
     },
