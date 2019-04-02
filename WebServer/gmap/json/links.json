@@ -192,24 +192,6 @@
         "end": "BASEL"
     },
     {
-        "id": 44,
-        "nlsr_weight": 8,
-        "start": "BYU",
-        "end": "CSU"
-    },
-    {
-        "id": 45,
-        "nlsr_weight": 9,
-        "start": "BYU",
-        "end": "REMAP"
-    },
-    {
-        "id": 46,
-        "nlsr_weight": 30,
-        "start": "BYU",
-        "end": "UA"
-    },
-    {
         "id": 47,
         "nlsr_weight": 22,
         "start": "ANYANG",

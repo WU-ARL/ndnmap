@@ -241,18 +241,6 @@
         "_real_position": [ 35.7092, 139.7193],
         "position": [ 35.8092, 139.7193]
     },
-    "BYU": {
-        "name": "Brigham Young University",
-        "shortname": "BYU",
-        "site": "http://pasta10.cs.byu.edu:80/",
-        "https": "https://pasta10.cs.byu.edu:443/",
-        "backbone": false,
-        "ws-tls": false,
-        "prefix": "ndn:/ndn/edu/byu",
-        "fch-enabled": false,
-        "ndn-up": false,
-        "position": [ 40.14, -111.39]
-    },
     "ANYANG": {
         "name": "Anyang University",
         "shortname": "ANYANG",
