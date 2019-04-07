@@ -24,12 +24,6 @@
         "end": "CSU"
     },
     {
-        "id": 5,
-        "nlsr_weight": 3,
-        "start": "UCLA",
-        "end": "CAIDA"
-    },
-    {
         "id": 6,
         "nlsr_weight": 1,
         "start": "REMAP",
@@ -51,12 +45,6 @@
         "id": 9,
         "nlsr_weight": 33,
         "start": "WU",
-        "end": "UA"
-    },
-    {
-        "id": 10,
-        "nlsr_weight": 25,
-        "start": "CAIDA",
         "end": "UA"
     },
     {
@@ -112,18 +100,6 @@
         "nlsr_weight": 1,
         "start": "REMAP",
         "end": "UCI"
-    },
-    {
-        "id": 22,
-        "nlsr_weight": 3,
-        "start": "CAIDA",
-        "end": "UCI"
-    },
-    {
-        "id": 24,
-        "nlsr_weight": 93,
-        "start": "CAIDA",
-        "end": "TONGJI"
     },
     {
         "id": 25,
@@ -418,12 +394,6 @@
         "nlsr_weight": 115,
         "start": "UFPA",
         "end": "UM"
-    },
-    {
-        "id": 93,
-        "nlsr_weight": 155,
-        "start": "UFPA",
-        "end": "CAIDA"
     },
     {
         "id": 95,

@@ -100,19 +100,6 @@
         "_real_position": [ 34.07282250, -118.43873980 ],
         "position": [ 34.4, -117.14807210 ]
     },
-    "CAIDA": {
-        "name": "University of California San Diego",
-        "shortname": "CAIDA",
-        "site": "http://click.caida.org:80/",
-        "https": "https://click.caida.org:443/",
-        "backbone": false,
-        "ws-tls": false,
-        "prefix": "ndn:/ndn/org/caida",
-        "fch-enabled": false,
-        "ndn-up": false,
-        "_real_position": [ 32.87357720, -117.23781110 ],
-        "position": [ 31.87357720, -119.23781110 ]
-    },
     "WU": {
         "name": "Washington University in St. Louis",
         "shortname": "WU",
