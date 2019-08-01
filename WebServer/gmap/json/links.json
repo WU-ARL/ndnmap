@@ -606,30 +606,6 @@
         "end": "UFPA"
     },
     {
-        "id": 131,
-        "nlsr_weight": 25,
-        "start": "AFA",
-        "end": "CAGLIARI"
-    },
-    {
-        "id": 132,
-        "nlsr_weight": 25,
-        "start": "PADUA",
-        "end": "CAGLIARI"
-    },
-    {
-        "id": 133,
-        "nlsr_weight": 75,
-        "start": "WU",
-        "end": "CAGLIARI"
-    },
-    {
-        "id": 135,
-        "nlsr_weight": 28,
-        "start": "URJC",
-        "end": "CAGLIARI"
-    },
-    {
         "id": 136,
         "nlsr_weight": 27,
         "start": "MINHO",
@@ -640,12 +616,6 @@
         "nlsr_weight": 17,
         "start": "URJC",
         "end": "CORUNA"
-    },
-    {
-        "id": 138,
-        "nlsr_weight": 40,
-        "start": "CORUNA",
-        "end": "CAGLIARI"
     },
     {
         "id": 139,
@@ -711,12 +681,6 @@
         "id": 149,
         "nlsr_weight": 50,
         "start": "COPELABS",
-        "end": "UNIVH2C"
-    },
-    {
-        "id": 150,
-        "nlsr_weight": 50,
-        "start": "CAGLIARI",
         "end": "UNIVH2C"
     },
     {

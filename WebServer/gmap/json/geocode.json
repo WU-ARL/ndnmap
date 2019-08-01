@@ -496,18 +496,6 @@
         "ndn-up": true,
         "position": [ 22.0, -100.5]
     },
-    "CAGLIARI": {
-        "name": "Universita degli Sudi di Cagliari",
-        "shortname": "CAGLIARI",
-        "site": "http://lumiere.diee.unica.it:80/",
-        "https": "https://lumiere.diee.unica.it:443/",
-        "backbone": false,
-        "ws-tls": false,
-        "prefix": "ndn:/ndn/it/unica",
-        "fch-enabled": false,
-        "ndn-up": true,
-        "position": [ 39.1, 8.9]
-    },
     "CORUNA": {
         "name": "Universidade da Coruna",
         "shortname": "CORUNA",
