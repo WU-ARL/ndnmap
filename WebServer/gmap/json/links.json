@@ -156,18 +156,6 @@
         "end": "WASEDA"
     },
     {
-        "id": 42,
-        "nlsr_weight": 2,
-        "start": "SYSTEMX",
-        "end": "LIP6"
-    },
-    {
-        "id": 43,
-        "nlsr_weight": 10,
-        "start": "SYSTEMX",
-        "end": "BASEL"
-    },
-    {
         "id": 47,
         "nlsr_weight": 22,
         "start": "ANYANG",
@@ -214,12 +202,6 @@
         "nlsr_weight": 25,
         "start": "NTNU",
         "end": "LIP6"
-    },
-    {
-        "id": 58,
-        "nlsr_weight": 24,
-        "start": "NTNU",
-        "end": "SYSTEMX"
     },
     {
         "id": 59,
@@ -286,12 +268,6 @@
         "nlsr_weight": 21,
         "start": "WASEDA",
         "end": "UI"
-    },
-    {
-        "id": 74,
-        "nlsr_weight": 21,
-        "start": "SYSTEMX",
-        "end": "GOETTINGEN"
     },
     {
         "id": 75,
@@ -660,12 +636,6 @@
         "end": "AVEIRO"
     },
     {
-        "id": 146,
-        "nlsr_weight": 18,
-        "start": "SYSTEMX",
-        "end": "AVEIRO"
-    },
-    {
         "id": 147,
         "nlsr_weight": 45,
         "start": "AFA",
@@ -759,12 +729,6 @@
         "id": 163,
         "nlsr_weight": 4,
         "start": "LIP6",
-        "end": "LACL"
-    },
-    {
-        "id": 164,
-        "nlsr_weight": 4,
-        "start": "SYSTEMX",
         "end": "LACL"
     },
     {

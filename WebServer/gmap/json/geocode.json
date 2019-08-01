@@ -165,19 +165,6 @@
         "_real_position": [ 48.50, 2.21 ],
         "position": [ 48.50, 1.71 ]
     },
-    "SYSTEMX": {
-        "name": "Institute for Technological Research SystemX",
-        "shortname": "SYSTEMX",
-        "site": "http://systemx-ndn-1.enst.fr:80/",
-        "https": "https://systemx-ndn-1.enst.fr:443/",
-        "backbone": false,
-        "ws-tls": false,
-        "prefix": "ndn:/ndn/fr/irt-systemx",
-        "fch-enabled": true,
-        "ndn-up": false,
-        "_real_position": [ 48.71, 2.19],
-        "position": [ 48.71, 3.19]
-    },
     "URJC": {
         "name": "Universidad Rey Juan Carlos (King Juan Carlos University)",
         "shortname": "URJC",
