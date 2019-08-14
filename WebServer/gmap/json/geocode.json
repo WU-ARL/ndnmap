@@ -291,8 +291,8 @@
     "NTNU": {
         "name": "Norwegian University of Science and Technology",
         "shortname": "NTNU",
-        "site": "http://ndn.item.ntnu.no5522:80/",
-        "https": "https://ndn.item.ntnu.no5522:443/",
+        "site": "http://ndn.item.ntnu.no:80/",
+        "https": "https://ndn.item.ntnu.no:443/",
         "backbone": false,
         "ws-tls": true,
         "prefix": "ndn:/ndn/no/ntnu",
@@ -351,8 +351,8 @@
     "OSAKA": {
         "name": "Osaka University",
         "shortname": "OSAKA",
-        "site": "http://ndn.ist.osaka-u.ac.jp.51:80/",
-        "https": "https://ndn.ist.osaka-u.ac.jp.51:443/",
+        "site": "http://ndn.ist.osaka-u.ac.jp:80/",
+        "https": "https://ndn.ist.osaka-u.ac.jp:443/",
         "backbone": false,
         "ws-tls": false,
         "prefix": "ndn:/ndn/jp/ac/osaka-u",
@@ -400,8 +400,8 @@
     "SRRU": {
         "name": "Surindra Rajabhat University, Thailand",
         "shortname": "SRRU",
-        "site": "http://comsci2.srru.ac.t:80/",
-        "https": "https://comsci2.srru.ac.t:443/",
+        "site": "http://comsci2.srru.ac.th:80/",
+        "https": "https://comsci2.srru.ac.th:443/",
         "backbone": false,
         "ws-tls": false,
         "prefix": "ndn:/ndn/th/ac/srru",
