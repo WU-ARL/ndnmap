@@ -90,18 +90,6 @@
         "end": "UCLA"
     },
     {
-        "id": 20,
-        "nlsr_weight": 1,
-        "start": "UCLA",
-        "end": "UCI"
-    },
-    {
-        "id": 21,
-        "nlsr_weight": 1,
-        "start": "REMAP",
-        "end": "UCI"
-    },
-    {
         "id": 25,
         "nlsr_weight": 69,
         "start": "LIP6",
@@ -669,12 +657,6 @@
         "id": 153,
         "nlsr_weight": 25,
         "start": "UCLA",
-        "end": "UA"
-    },
-    {
-        "id": 154,
-        "nlsr_weight": 25,
-        "start": "UCI",
         "end": "UA"
     },
     {

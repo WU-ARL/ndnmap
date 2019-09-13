@@ -113,19 +113,6 @@
         "_real_position": [ 38.64907010, -90.30334710 ],
         "position": [ 38.14907010, -90.30334710 ]
     },
-    "UCI": {
-        "name": "University of California, Irvine",
-        "shortname": "UCI",
-        "site": "http://ndnhub.ics.uci.edu:80/",
-        "https": "https://ndnhub.ics.uci.edu:443/",
-        "backbone": false,
-        "ws-tls": true,
-        "prefix": "ndn:/ndn/edu/uci",
-        "fch-enabled": true,
-        "ndn-up": true,
-        "_real_position": [ 33.6495, -117.845798 ],
-        "position": [ 33.1495, -118.145798 ]
-    },
     "BUPT": {
         "name": "Beijing University of Posts and Telecommunications",
         "shortname": "BUPT",
