@@ -31,7 +31,7 @@
         "backbone": false,
         "ws-tls": false,
         "prefix": "ndn:/ndn/edu/memphis",
-        "fch-enabled": false,
+        "fch-enabled": true,
         "ndn-up": true,
         "position": [ 35.11860990, -89.93700109999999 ]
     },
@@ -43,7 +43,7 @@
         "backbone": false,        
         "ws-tls": false,
         "prefix": "ndn:/ndn/edu/neu",
-        "fch-enabled": false,
+        "fch-enabled": true,
         "ndn-up": true,
         "_real_position": [ 42.33987830, -71.08873579999999 ],
         "position": [ 42.7, -71.08873579999999 ]
@@ -69,7 +69,7 @@
         "backbone": false,
         "ws-tls": true,
         "prefix": "ndn:/ndn/edu/illinois",
-        "fch-enabled": false,
+        "fch-enabled": true,
         "ndn-up": false,
         "_real_position": [ 40.10260390, -88.23171080000002 ],
         "position": [ 40.60260390, -88.23171080000002 ]
@@ -108,7 +108,7 @@
         "backbone": false,
         "ws-tls": true,
         "prefix": "ndn:/ndn/edu/wustl",
-        "fch-enabled": false,
+        "fch-enabled": true,
         "ndn-up": true,
         "_real_position": [ 38.64907010, -90.30334710 ],
         "position": [ 38.14907010, -90.30334710 ]
@@ -245,9 +245,9 @@
         "site": "http://93-42-157-82.ip87.fastwebnet.it:80/",
         "https": "https://93-42-157-82.ip87.fastwebnet.it:443/",
         "backbone": false,
-        "ws-tls": false,
+        "ws-tls": true,
         "prefix": "ndn:/ndn/it/afasystems",
-        "fch-enabled": false,
+        "fch-enabled": true,
         "ndn-up": false,
         "position": [ 42.1, 14.5]
     },
@@ -295,7 +295,7 @@
         "backbone": false,
         "ws-tls": false,
         "prefix": "ndn:/ndn/pt/ulusofona/copelabs",
-        "fch-enabled": false,
+        "fch-enabled": true,
         "ndn-up": false,
         "position": [ 38.6, -9.0]
     },
@@ -454,7 +454,7 @@
         "backbone": false,
         "ws-tls": false,
         "prefix": "ndn:/ndn/my/edu/uum",
-        "fch-enabled": false,
+        "fch-enabled": true,
         "ndn-up": true,
         "position": [ 6.6, 100.3 ]
     },
@@ -497,8 +497,8 @@
     "SAVI": {
         "name": "SAVI, University of Toronto",
         "shortname": "SAVI",
-        "site": "http://142.150.208.242:80/",
-        "https": "https://142.150.208.242:443/",
+        "site": "http://savi.testbed.named-data.net:80/",
+        "https": "https://savi.testbed.named-data.net:443/",
         "backbone": false,
         "ws-tls": false,
         "prefix": "ndn:/ndn/ca/utoronto",
@@ -514,7 +514,7 @@
         "backbone": false,
         "ws-tls": true,
         "prefix": "ndn:/ndn/fr/lacl",
-        "fch-enabled": false,
+        "fch-enabled": true,
         "ndn-up": false,
         "_real_position": [ 48.50, 2.21 ],
         "position": [ 47.50, 2.50 ]
