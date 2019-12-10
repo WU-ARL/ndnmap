@@ -1,4 +1,17 @@
 {
+    "QUB": {
+        "name": "Queen's University Belfast, UK",
+        "shortname": "QUB",
+        "site": "http://ndn.qub.ac.uk:80/",
+        "https": "https://ndn.qub.ac.uk:443/",
+        "backbone": false,
+        "ws-tls": true,
+        "prefix": "ndn:/ndn/uk/ac/qub",
+        "fch-enabled": true,
+        "ndn-up": true,
+	"memsize": "8G",
+        "position": [ 54.5973, 5.9301 ]
+    }
     "UA": {
         "name": "The University of Arizona",
         "shortname": "UA",
@@ -9,6 +22,7 @@
         "prefix": "ndn:/ndn/edu/arizona",
         "fch-enabled": true,
         "ndn-up": true,
+	"memsize": "8G",
         "position": [ 32.22896140, -110.94832260 ]
     },
     "CSU": {
@@ -21,6 +35,7 @@
         "prefix": "ndn:/ndn/edu/colostate",
         "fch-enabled": true,
         "ndn-up": true,
+	"memsize": "4G",
         "position": [ 40.57471750, -105.08482930 ]
     },
     "UM": {
@@ -33,6 +48,7 @@
         "prefix": "ndn:/ndn/edu/memphis",
         "fch-enabled": true,
         "ndn-up": true,
+	"memsize": "4G",
         "position": [ 35.11860990, -89.93700109999999 ]
     },
     "NEU": {
@@ -45,6 +61,7 @@
         "prefix": "ndn:/ndn/edu/neu",
         "fch-enabled": true,
         "ndn-up": true,
+	"memsize": "unknown",
         "_real_position": [ 42.33987830, -71.08873579999999 ],
         "position": [ 42.7, -71.08873579999999 ]
     },
@@ -58,6 +75,7 @@
         "prefix": "ndn:/ndn/edu/umich",
         "fch-enabled": true,
         "ndn-up": true,
+	"memsize": "4G",
         "_real_position": [ 42.10260390, -80.23171080000002 ],
         "position": [ 42.50260390, -83.4 ]
     },
@@ -71,6 +89,7 @@
         "prefix": "ndn:/ndn/edu/illinois",
         "fch-enabled": true,
         "ndn-up": false,
+	"memsize": "8G",
         "_real_position": [ 40.10260390, -88.23171080000002 ],
         "position": [ 40.60260390, -88.23171080000002 ]
     },
@@ -84,6 +103,7 @@
         "prefix": "ndn:/ndn/edu/ucla",
         "fch-enabled": true,
         "ndn-up": true,
+	"memsize": "2G",
         "_real_position": [ 34.07282250, -118.43873980 ],
         "position": [ 35.5, -120 ]
     },
@@ -97,6 +117,7 @@
         "prefix": "ndn:/ndn/edu/ucla/remap",
         "fch-enabled": false,
         "ndn-up": false,
+	"memsize": "unknown",
         "_real_position": [ 34.07282250, -118.43873980 ],
         "position": [ 34.4, -117.14807210 ]
     },
@@ -110,6 +131,7 @@
         "prefix": "ndn:/ndn/edu/wustl",
         "fch-enabled": true,
         "ndn-up": true,
+	"memsize": "2G",
         "_real_position": [ 38.64907010, -90.30334710 ],
         "position": [ 38.14907010, -90.30334710 ]
     },
@@ -123,6 +145,7 @@
         "prefix": "ndn:/ndn/cn/edu/bupt",
         "fch-enabled": false,
         "ndn-up": false,
+	"memsize": "unknown",
         "_real_position": [ 39.59, 116.18 ],
         "position": [ 37.40, 114.18 ]
     },
@@ -136,6 +159,7 @@
         "prefix": "ndn:/ndn/cn/edu/tongji",
         "fch-enabled": true,
         "ndn-up": false,
+	"memsize": "64G",
         "_real_position": [ 31.12, 121.30 ],
         "position": [ 31.12, 121.30 ]
     },
@@ -149,6 +173,7 @@
         "prefix": "ndn:/ndn/fr/lip6",
         "fch-enabled": true,
         "ndn-up": true,
+	"memsize": "4G",
         "_real_position": [ 48.50, 2.21 ],
         "position": [ 48.50, 1.71 ]
     },
@@ -162,6 +187,7 @@
         "prefix": "ndn:/ndn/es/urjc",
         "fch-enabled": true,
         "ndn-up": true,
+	"memsize": "24G",
         "_real_position": [ 40.3359, -3.8732],
         "position": [ 41.3359, -3.8732]
     },
@@ -175,6 +201,7 @@
         "prefix": "ndn:/ndn/ch/unibas",
         "fch-enabled": true,
         "ndn-up": true,
+	"memsize": "2G",
         "position": [ 47.55858, 7.58360]
     },
     "BERN": {
@@ -187,6 +214,7 @@
         "prefix": "ndn:/ndn/ch/unibe",
         "fch-enabled": true,
         "ndn-up": true,
+	"memsize": "unknown",
         "position": [ 46.8, 8.58360]
     },
     "WASEDA": {
@@ -199,6 +227,7 @@
         "prefix": "ndn:/ndn/jp/waseda",
         "fch-enabled": true,
         "ndn-up": true,
+	"memsize": "unknown",
         "_real_position": [ 35.7092, 139.7193],
         "position": [ 35.8092, 139.7193]
     },
@@ -212,6 +241,7 @@
         "prefix": "ndn:/ndn/kr/anyang",
         "fch-enabled": true,
         "ndn-up": true,
+	"memsize": "48G",
         "position": [ 37.7, 127.00]
     },
     "GIST": {
@@ -224,6 +254,7 @@
         "prefix": "ndn:/ndn/kr/ac/gist",
         "fch-enabled": false,
         "ndn-up": false,
+	"memsize": "unknown",
         "position": [ 35.4, 126.80]
     },
     "KISTI": {
@@ -236,6 +267,7 @@
         "prefix": "ndn:/ndn/kr/re/kisti",
         "fch-enabled": true,
         "ndn-up": true,
+	"memsize": "8G",
         "_real_position": [ 36.8, 127.50],
         "position": [ 36.0, 127.50]
     },
@@ -249,6 +281,7 @@
         "prefix": "ndn:/ndn/it/afasystems",
         "fch-enabled": true,
         "ndn-up": false,
+	"memsize": "4G",
         "position": [ 42.1, 14.5]
     },
     "AAU": {
@@ -261,6 +294,7 @@
         "prefix": "ndn:/ndn/at/aau",
         "fch-enabled": true,
         "ndn-up": true,
+	"memsize": "4G",
         "position": [ 46.7, 14.5]
     },
     "PADUA": {
@@ -273,6 +307,7 @@
         "prefix": "ndn:/ndn/it/unipd",
         "fch-enabled": true,
         "ndn-up": true,
+	"memsize": "unknown",
         "position": [ 45.35858, 11.78360]
     },
     "NTNU": {
@@ -285,6 +320,7 @@
         "prefix": "ndn:/ndn/no/ntnu",
         "fch-enabled": false,
         "ndn-up": false,
+	"memsize": "unknown",
         "position": [ 63.5, 10.5]
     },
     "COPELABS": {
@@ -297,6 +333,7 @@
         "prefix": "ndn:/ndn/pt/ulusofona/copelabs",
         "fch-enabled": true,
         "ndn-up": false,
+	"memsize": "1G",
         "position": [ 38.6, -9.0]
     },
     "AVEIRO": {
@@ -309,6 +346,7 @@
         "prefix": "ndn:/ndn/pt/it/av",
         "fch-enabled": true,
         "ndn-up": true,
+	"memsize": "4G",
         "position": [ 40.6, -9.0]
     },
     "UI": {
@@ -321,6 +359,7 @@
         "prefix": "ndn:/ndn/id/ac/ui",
         "fch-enabled": false,
         "ndn-up": false,
+	"memsize": "unknown",
         "position": [ -6.0, 106.8 ]
     },
     "GOETTINGEN": {
@@ -333,6 +372,7 @@
         "prefix": "ndn:/ndn/de/uni-goettingen",
         "fch-enabled": true,
         "ndn-up": true,
+	"memsize": "3G",
         "position": [ 52.05858, 9.58360]
     },
     "OSAKA": {
@@ -345,6 +385,7 @@
         "prefix": "ndn:/ndn/jp/ac/osaka-u",
         "fch-enabled": true,
         "ndn-up": true,
+	"memsize": "16G",
         "position": [ 34.3, 135.7193],
         "_real_position": [ 34.72, 135.5193]
     },
@@ -358,6 +399,7 @@
         "prefix": "ndn:/ndn/pt/uminho",
         "fch-enabled": true,
         "ndn-up": false,
+	"memsize": "4G",
         "position": [ 41.8, -8.2]
     },
     "NIST": {
@@ -370,18 +412,20 @@
         "prefix": "ndn:/ndn/gov/nist",
         "fch-enabled": false,
         "ndn-up": false,
+	"memsize": "unknown",
         "position": [ 39.14907010, -76.5 ]
     },
-    "UFPA": {
-        "name": "Federal University of Para, Brazil",
-        "shortname": "UFPA",
-        "site": "http://ufpa.testbed.named-data.net:80/",
-        "https": "https://ufpa.testbed.named-data.net:443/",
+    "UFBA": {
+        "name": "Federal University of Bahia, Brazil",
+        "shortname": "UFBA",
+        "site": "http://ufba.testbed.named-data.net:80/",
+        "https": "https://ufba.testbed.named-data.net:443/",
         "backbone": false,
         "ws-tls": false,
-        "prefix": "ndn:/ndn/br/ufpa",
-        "fch-enabled": false,
+        "prefix": "ndn:/ndn/br/ufba",
+        "fch-enabled": true,
         "ndn-up": false,
+	"memsize": "unknown",
         "position": [ -3.7, -49.6 ]
     },
     "SRRU": {
@@ -394,6 +438,7 @@
         "prefix": "ndn:/ndn/th/ac/srru",
         "fch-enabled": false,
         "ndn-up": false,
+	"memsize": "8G",
         "position": [ 15.3, 103.7 ]
     },
     "TNO": {
@@ -406,6 +451,7 @@
         "prefix": "ndn:/ndn/nl/tno",
         "fch-enabled": true,
         "ndn-up": true,
+	"memsize": "4G",
         "position": [ 52.05858, 4.0]
     },
     "MSU": {
@@ -418,6 +464,7 @@
         "prefix": "ndn:/ndn/th/ac/msu",
         "fch-enabled": false,
         "ndn-up": false,
+	"memsize": "unknown",
         "position": [ 17.3, 103.7 ]
     },
     "PKUSZ": {
@@ -430,6 +477,7 @@
         "prefix": "ndn:/ndn/cn/edu/pkusz",
         "fch-enabled": false,
         "ndn-up": false,
+	"memsize": "unknown",
         "_real_position": [ 23.0, 114.0 ],
         "position": [ 23.0, 114.0 ]
     },
@@ -443,6 +491,7 @@
         "prefix": "ndn:/ndn/cn/cas/cnic",
         "fch-enabled": false,
         "ndn-up": true,
+	"memsize": "16G",
         "_real_position": [ 39.59, 116.18 ],
         "position": [ 40.0, 112.0 ]
     },
@@ -456,6 +505,7 @@
         "prefix": "ndn:/ndn/my/edu/uum",
         "fch-enabled": true,
         "ndn-up": true,
+	"memsize": "16G",
         "position": [ 6.6, 100.3 ]
     },
     "UASLP": {
@@ -468,6 +518,7 @@
         "prefix": "ndn:/ndn/mx/uaslp",
         "fch-enabled": true,
         "ndn-up": true,
+	"memsize": "8B",
         "position": [ 22.0, -100.5]
     },
     "CORUNA": {
@@ -480,6 +531,7 @@
         "prefix": "ndn:/ndn/es/udc",
         "fch-enabled": true,
         "ndn-up": true,
+	"memsize": "2G",
         "position": [ 43.3, -8.2]
     },
     "UNIVH2C": {
@@ -492,6 +544,7 @@
         "prefix": "ndn:/ndn/ma/univh2c",
         "fch-enabled": false,
         "ndn-up": true,
+	"memsize": "unknown",
         "position": [ 33.5, -7.2]
     },
     "SAVI": {
@@ -504,6 +557,7 @@
         "prefix": "ndn:/ndn/ca/utoronto",
         "fch-enabled": true,
         "ndn-up": true,
+	"memsize": "8G",
         "position": [ 43.6, -79.4 ]
     },
     "LACL": {
@@ -516,6 +570,7 @@
         "prefix": "ndn:/ndn/fr/lacl",
         "fch-enabled": true,
         "ndn-up": false,
+	"memsize": "unknown",
         "_real_position": [ 48.50, 2.21 ],
         "position": [ 47.50, 2.50 ]
     },
@@ -529,6 +584,7 @@
         "prefix": "ndn:/ndn/aws/mumbai",
         "fch-enabled": true,
         "ndn-up": true,
+	"memsize": "1G",
         "position": [ 19.0, 73.2 ]
     },
     "AWS-US-E-1": {
@@ -540,6 +596,7 @@
         "ws-tls": false,
         "fch-enabled": false,
         "ndn-up": false,
+	"memsize": "unknown",
         "position": [ 38.0, -78.5 ]
     },
     "AWS-US-E-2": {
@@ -551,6 +608,7 @@
         "ws-tls": false,
         "fch-enabled": false,
         "ndn-up": false,
+	"memsize": "unknown",
         "_real_position": [ 40.0, -83.0 ],
         "position": [ 40.5, -82.0 ]
     },
@@ -563,6 +621,7 @@
         "ws-tls": false,
         "fch-enabled": false,
         "ndn-up": false,
+	"memsize": "unknown",
         "position": [ 41.1, -121.4 ]
     },
     "AWS-US-W-2": {
@@ -574,6 +633,7 @@
         "ws-tls": false,
         "fch-enabled": false,
         "ndn-up": false,
+	"memsize": "unknown",
         "position": [ 44.1, -123.1 ]
     },
     "AWS-CA-C-1": {
@@ -585,6 +645,7 @@
         "ws-tls": false,
         "fch-enabled": false,
         "ndn-up": false,
+	"memsize": "unknown",
         "_real_position": [ 43.6, -79.4 ],
         "position": [ 44.6, -78.4 ]
     },
@@ -597,6 +658,7 @@
         "ws-tls": false,
         "fch-enabled": false,
         "ndn-up": false,
+	"memsize": "unknown",
         "position": [ 53.5, -7.0 ]
     },
     "AWS-EU-W-2": {
@@ -608,6 +670,7 @@
         "ws-tls": false,
         "fch-enabled": false,
         "ndn-up": false,
+	"memsize": "unknown",
         "position": [ 51.5, 0.1 ]
     },
     "AWS-EU-C-1": {
@@ -619,6 +682,7 @@
         "ws-tls": false,
         "fch-enabled": false,
         "ndn-up": false,
+	"memsize": "unknown",
         "_real_position": [ 50.1, 8.7 ],
         "position": [ 51.0, 9.5 ]
     },
@@ -631,6 +695,7 @@
         "ws-tls": false,
         "fch-enabled": false,
         "ndn-up": false,
+	"memsize": "unknown",
         "position": [ 1.4, 103.8 ]
     },
     "AWS-AP-SE-2": {
@@ -642,6 +707,7 @@
         "ws-tls": false,
         "fch-enabled": false,
         "ndn-up": false,
+	"memsize": "unknown",
         "position": [ -33.9, 151.0 ]
     },
     "AWS-AP-NE-1": {
@@ -653,6 +719,7 @@
         "ws-tls": false,
         "fch-enabled": false,
         "ndn-up": false,
+	"memsize": "unknown",
         "_real_position": [ 35.6, 139.9 ],
         "position": [ 35.0, 140.9 ]
     },
@@ -665,6 +732,7 @@
         "ws-tls": false,
         "fch-enabled": false,
         "ndn-up": false,
+	"memsize": "unknown",
         "_real_position": [ 37.3, 127.0 ],
         "position": [ 37.0, 128.0 ]
     },
@@ -677,6 +745,7 @@
         "ws-tls": false,
         "fch-enabled": false,
         "ndn-up": false,
+	"memsize": "unknown",
         "position": [ -23.2, -45.0 ]
     }
 }

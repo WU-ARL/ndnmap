@@ -724,5 +724,29 @@
         "nlsr_weight": 50,
         "start": "UNIVH2C",
         "end": "LACL"
+    },
+    {
+        "id": 167,
+        "nlsr_weight": 60,
+        "start": "QUB",
+        "end": "WU"
+    },
+    {
+        "id": 168,
+        "nlsr_weight": 15,
+        "start": "QUB",
+        "end": "TNO"
+    },
+    {
+        "id": 169,
+        "nlsr_weight": 12,
+        "start": "QUB",
+        "end": "LIP6"
+    },
+    {
+        "id": 170,
+        "nlsr_weight": 60,
+        "start": "QUB",
+        "end": "NEU"
     }
 ]
