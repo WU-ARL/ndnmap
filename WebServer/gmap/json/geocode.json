@@ -10,8 +10,8 @@
         "fch-enabled": true,
         "ndn-up": true,
 	"memsize": "8G",
-        "position": [ 54.5973, 5.9301 ]
-    }
+        "position": [ 54.5973, -5.9301 ]
+    },
     "UA": {
         "name": "The University of Arizona",
         "shortname": "UA",
