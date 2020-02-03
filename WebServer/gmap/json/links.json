@@ -748,5 +748,23 @@
         "nlsr_weight": 60,
         "start": "QUB",
         "end": "NEU"
+    },
+    {
+        "id": 171,
+        "nlsr_weight": 25,
+        "start": "UCLA2",
+        "end": "ARIZONA"
+    },
+    {
+        "id": 172,
+        "nlsr_weight": 30,
+        "start": "UCLA2",
+        "end": "WU"
+    },
+    {
+        "id": 173,
+        "nlsr_weight": 1,
+        "start": "UCLA2",
+        "end": "UCLA"
     }
 ]

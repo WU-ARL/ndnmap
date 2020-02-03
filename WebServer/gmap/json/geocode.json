@@ -107,6 +107,20 @@
         "_real_position": [ 34.07282250, -118.43873980 ],
         "position": [ 35.5, -120 ]
     },
+    "UCLA2": {
+        "name": "University of California, Los Angeles",
+        "shortname": "UCLA2",
+        "site": "http://suns.cs.ucla.edu:80/",
+        "https": "https://suns.cs.ucla.edu:443/",
+        "backbone": false,
+        "ws-tls": true,
+        "prefix": "ndn:/ndn/edu/ucla2",
+        "fch-enabled": true,
+        "ndn-up": true,
+	"memsize": "2G",
+        "_real_position": [ 34.07282250, -118.43873980 ],
+        "position": [ 36.5, -130 ]
+    },
     "REMAP": {
         "name": "Remap at University of California, Los Angeles",
         "shortname": "REMAP",
