@@ -271,20 +271,6 @@
 	"memsize": "unknown",
         "position": [ 35.4, 126.80]
     },
-    "KISTI": {
-        "name": "Korea Institute of Science and Technology Information",
-        "shortname": "KISTI",
-        "site": "http://kisti.testbed.named-data.net:80/",
-        "https": "https://kisti.testbed.named-data.net:443/",
-        "backbone": false,
-        "ws-tls": false,
-        "prefix": "ndn:/ndn/kr/re/kisti",
-        "fch-enabled": true,
-        "ndn-up": true,
-	"memsize": "8G",
-        "_real_position": [ 36.8, 127.50],
-        "position": [ 36.0, 127.50]
-    },
     "AFA": {
         "name": "AFA Systems",
         "shortname": "AFA",
@@ -362,19 +348,6 @@
         "ndn-up": true,
 	"memsize": "4G",
         "position": [ 40.6, -9.0]
-    },
-    "UI": {
-        "name": "University of Indonesia",
-        "shortname": "UI",
-        "site": "http://indonesia.testbed.named-data.net:80/",
-        "https": "https://indonesia.testbed.named-data.net:443/",
-        "backbone": false,
-        "ws-tls": false,
-        "prefix": "ndn:/ndn/id/ac/ui",
-        "fch-enabled": false,
-        "ndn-up": false,
-	"memsize": "unknown",
-        "position": [ -6.0, 106.8 ]
     },
     "GOETTINGEN": {
         "name": "Goettingen University ",

@@ -198,30 +198,6 @@
         "end": "BASEL"
     },
     {
-        "id": 64,
-        "nlsr_weight": 16,
-        "start": "KISTI",
-        "end": "ANYANG"
-    },
-    {
-        "id": 65,
-        "nlsr_weight": 16,
-        "start": "KISTI",
-        "end": "WASEDA"
-    },
-    {
-        "id": 66,
-        "nlsr_weight": 16,
-        "start": "KISTI",
-        "end": "BUPT"
-    },
-    {
-        "id": 67,
-        "nlsr_weight": 84,
-        "start": "CSU",
-        "end": "KISTI"
-    },
-    {
         "id": 68,
         "nlsr_weight": 13,
         "start": "COPELABS",
@@ -238,24 +214,6 @@
         "nlsr_weight": 21,
         "start": "COPELABS",
         "end": "LIP6"
-    },
-    {
-        "id": 71,
-        "nlsr_weight": 21,
-        "start": "BUPT",
-        "end": "UI"
-    },
-    {
-        "id": 72,
-        "nlsr_weight": 21,
-        "start": "TONGJI",
-        "end": "UI"
-    },
-    {
-        "id": 73,
-        "nlsr_weight": 21,
-        "start": "WASEDA",
-        "end": "UI"
     },
     {
         "id": 75,
@@ -342,12 +300,6 @@
         "end": "UIUC"
     },
     {
-        "id": 90,
-        "nlsr_weight": 235,
-        "start": "UI",
-        "end": "UFBA"
-    },
-    {
         "id": 91,
         "nlsr_weight": 145,
         "start": "UFBA",
@@ -358,12 +310,6 @@
         "nlsr_weight": 115,
         "start": "UFBA",
         "end": "UM"
-    },
-    {
-        "id": 95,
-        "nlsr_weight": 13,
-        "start": "SRRU",
-        "end": "UI"
     },
     {
         "id": 96,
@@ -382,12 +328,6 @@
         "nlsr_weight": 13,
         "start": "SRRU",
         "end": "ANYANG"
-    },
-    {
-        "id": 99,
-        "nlsr_weight": 38,
-        "start": "KISTI",
-        "end": "UI"
     },
     {
         "id": 100,
@@ -534,12 +474,6 @@
         "end": "MUMBAI_AWS"
     },
     {
-        "id": 124,
-        "nlsr_weight": 100,
-        "start": "UI",
-        "end": "UUM"
-    },
-    {
         "id": 125,
         "nlsr_weight": 100,
         "start": "OSAKA",
@@ -603,12 +537,6 @@
         "id": 142,
         "nlsr_weight": 4,
         "start": "ANYANG",
-        "end": "GIST"
-    },
-    {
-        "id": 143,
-        "nlsr_weight": 2,
-        "start": "KISTI",
         "end": "GIST"
     },
     {
