@@ -101,7 +101,7 @@
         "backbone": false,
         "ws-tls": true,
         "prefix": "ndn:/ndn/edu/ucla",
-        "fch-enabled": true,
+        "fch-enabled": false,
         "ndn-up": true,
 	"memsize": "2G",
         "_real_position": [ 34.07282250, -118.43873980 ],
