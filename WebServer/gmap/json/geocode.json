@@ -121,20 +121,6 @@
         "_real_position": [ 34.07282250, -118.43873980 ],
         "position": [ 36.5, -130 ]
     },
-    "REMAP": {
-        "name": "Remap at University of California, Los Angeles",
-        "shortname": "REMAP",
-        "site": "http://aleph.ndn.ucla.edu:80/",
-        "https": "https://aleph.ndn.ucla.edu:443/",
-        "backbone": false,
-        "ws-tls": false,
-        "prefix": "ndn:/ndn/edu/ucla/remap",
-        "fch-enabled": false,
-        "ndn-up": false,
-	"memsize": "unknown",
-        "_real_position": [ 34.07282250, -118.43873980 ],
-        "position": [ 34.4, -117.14807210 ]
-    },
     "WU": {
         "name": "Washington University in St. Louis",
         "shortname": "WU",
@@ -389,19 +375,6 @@
 	"memsize": "4G",
         "position": [ 41.8, -8.2]
     },
-    "NIST": {
-        "name": "National Institute for Standards and Testing",
-        "shortname": "NIST",
-        "site": "https://ndn-01.antd.nist.gov/",
-        "https": "https://ndn-01.antd.nist.gov/",
-        "backbone": false,
-        "ws-tls": false,
-        "prefix": "ndn:/ndn/gov/nist",
-        "fch-enabled": false,
-        "ndn-up": false,
-	"memsize": "unknown",
-        "position": [ 39.14907010, -76.5 ]
-    },
     "UFBA": {
         "name": "Federal University of Bahia, Brazil",
         "shortname": "UFBA",
@@ -453,20 +426,6 @@
         "ndn-up": false,
 	"memsize": "unknown",
         "position": [ 17.3, 103.7 ]
-    },
-    "PKUSZ": {
-        "name": "Peking University Shenzhen Graduate School",
-        "shortname": "PKUSZ",
-        "site": "http://pkusz.testbed.named-data.net:80/",
-        "https": "https://pkusz.testbed.named-data.net:443/",
-        "backbone": false,
-        "ws-tls": false,
-        "prefix": "ndn:/ndn/cn/edu/pkusz",
-        "fch-enabled": false,
-        "ndn-up": false,
-	"memsize": "unknown",
-        "_real_position": [ 23.0, 114.0 ],
-        "position": [ 23.0, 114.0 ]
     },
     "CNIC": {
         "name": "Computer Network Information Center, Chinese Academy of Sciences",
