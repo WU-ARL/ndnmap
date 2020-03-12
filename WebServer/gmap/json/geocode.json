@@ -174,8 +174,8 @@
         "fch-enabled": true,
         "ndn-up": true,
 	"memsize": "4G",
-        "_real_position": [ 48.50, 2.21 ],
-        "position": [ 48.50, 1.71 ]
+        "_real_position": [ 48.86, 2.34 ],
+        "position": [ 48.86, 2.34 ]
     },
     "URJC": {
         "name": "Universidad Rey Juan Carlos (King Juan Carlos University)",
@@ -245,7 +245,7 @@
         "position": [ 37.7, 127.00]
     },
     "GIST": {
-        "name": "Anyang University",
+        "name": "Gwangju Institute of Science and Technology ",
         "shortname": "GIST",
         "site": "http://103.22.221.33:80/",
         "https": "https://103.22.221.33:443/",
