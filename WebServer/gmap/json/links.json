@@ -580,5 +580,17 @@
         "nlsr_weight": 1,
         "start": "UCLA2",
         "end": "UCLA"
+    },
+    {
+        "id": 174,
+        "nlsr_weight": 18,
+        "start": "TONGJI",
+        "end": "CNIC"
+    },
+    {
+        "id": 175,
+        "nlsr_weight": 33,
+        "start": "ANYANG",
+        "end": "CNIC"
     }
 ]
