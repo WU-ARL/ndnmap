@@ -135,20 +135,6 @@
         "_real_position": [ 38.64907010, -90.30334710 ],
         "position": [ 38.14907010, -90.30334710 ]
     },
-    "BUPT": {
-        "name": "Beijing University of Posts and Telecommunications",
-        "shortname": "BUPT",
-        "site": "http://bupt.testbed.named-data.net:8080/",
-        "https": "https://bupt.testbed.named-data.net:44380/",
-        "backbone": false,
-        "ws-tls": false,
-        "prefix": "ndn:/ndn/cn/edu/bupt",
-        "fch-enabled": false,
-        "ndn-up": false,
-	"memsize": "unknown",
-        "_real_position": [ 39.59, 116.18 ],
-        "position": [ 37.40, 114.18 ]
-    },
     "TONGJI": {
         "name": "Tongji University",
         "shortname": "TONGJI",
