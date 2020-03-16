@@ -78,12 +78,6 @@
         "end": "MICH"
     },
     {
-        "id": 29,
-        "nlsr_weight": 18,
-        "start": "TONGJI",
-        "end": "BUPT"
-    },
-    {
         "id": 31,
         "nlsr_weight": 15,
         "start": "URJC",
@@ -108,12 +102,6 @@
         "end": "URJC"
     },
     {
-        "id": 37,
-        "nlsr_weight": 48,
-        "start": "WASEDA",
-        "end": "BUPT"
-    },
-    {
         "id": 38,
         "nlsr_weight": 98,
         "start": "WASEDA",
@@ -136,12 +124,6 @@
         "nlsr_weight": 54,
         "start": "ANYANG",
         "end": "TONGJI"
-    },
-    {
-        "id": 49,
-        "nlsr_weight": 33,
-        "start": "ANYANG",
-        "end": "BUPT"
     },
     {
         "id": 52,
@@ -282,12 +264,6 @@
         "end": "OSAKA"
     },
     {
-        "id": 97,
-        "nlsr_weight": 13,
-        "start": "SRRU",
-        "end": "BUPT"
-    },
-    {
         "id": 98,
         "nlsr_weight": 13,
         "start": "SRRU",
@@ -334,12 +310,6 @@
         "nlsr_weight": 70,
         "start": "ANYANG",
         "end": "MSU"
-    },
-    {
-        "id": 115,
-        "nlsr_weight": 10,
-        "start": "CNIC",
-        "end": "BUPT"
     },
     {
         "id": 116,
