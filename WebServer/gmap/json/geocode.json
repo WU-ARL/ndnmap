@@ -93,28 +93,28 @@
         "_real_position": [ 40.10260390, -88.23171080000002 ],
         "position": [ 40.60260390, -88.23171080000002 ]
     },
-    "UCLA": {
+    "UCLACS": {
         "name": "University of California, Los Angeles",
-        "shortname": "UCLA",
+        "shortname": "UCLACS",
         "site": "http://spurs.cs.ucla.edu:80/",
         "https": "https://spurs.cs.ucla.edu:443/",
         "backbone": false,
         "ws-tls": true,
-        "prefix": "ndn:/ndn/edu/ucla",
+        "prefix": "ndn:/ndn/edu/ucla/cs",
         "fch-enabled": false,
         "ndn-up": true,
 	"memsize": "2G",
         "_real_position": [ 34.07282250, -118.43873980 ],
         "position": [ 35.5, -120 ]
     },
-    "UCLA2": {
+    "UCLA": {
         "name": "University of California, Los Angeles",
-        "shortname": "UCLA2",
+        "shortname": "UCLA",
         "site": "http://suns.cs.ucla.edu:80/",
         "https": "https://suns.cs.ucla.edu:443/",
         "backbone": false,
         "ws-tls": true,
-        "prefix": "ndn:/ndn/edu/ucla2",
+        "prefix": "ndn:/ndn/edu/ucla",
         "fch-enabled": true,
         "ndn-up": true,
 	"memsize": "2G",
@@ -255,19 +255,6 @@
         "ndn-up": false,
 	"memsize": "4G",
         "position": [ 42.1, 14.5]
-    },
-    "AAU": {
-        "name": "Austrian Alpen-Adria-Universtat",
-        "shortname": "AAU",
-        "site": "http://ndn-itec.aau.at:80/",
-        "https": "https://ndn-itec.aau.at:443/",
-        "backbone": false,
-        "ws-tls": false,
-        "prefix": "ndn:/ndn/at/aau",
-        "fch-enabled": true,
-        "ndn-up": true,
-	"memsize": "4G",
-        "position": [ 46.7, 14.5]
     },
     "PADUA": {
         "name": "University of Padua",
