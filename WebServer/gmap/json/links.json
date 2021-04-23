@@ -66,12 +66,6 @@
         "end": "NEU"
     },
     {
-        "id": 17,
-        "nlsr_weight": 16,
-        "start": "CSU",
-        "end": "UCLACS"
-    },
-    {
         "id": 25,
         "nlsr_weight": 69,
         "start": "LIP6",
@@ -102,12 +96,6 @@
         "end": "URJC"
     },
     {
-        "id": 38,
-        "nlsr_weight": 98,
-        "start": "WASEDA",
-        "end": "TONGJI"
-    },
-    {
         "id": 39,
         "nlsr_weight": 75,
         "start": "ARIZONA",
@@ -118,12 +106,6 @@
         "nlsr_weight": 22,
         "start": "ANYANG",
         "end": "WASEDA"
-    },
-    {
-        "id": 48,
-        "nlsr_weight": 54,
-        "start": "ANYANG",
-        "end": "TONGJI"
     },
     {
         "id": 52,
@@ -162,39 +144,15 @@
         "end": "LIP6"
     },
     {
-        "id": 75,
-        "nlsr_weight": 21,
-        "start": "BASEL",
-        "end": "GOETTINGEN"
-    },
-    {
-        "id": 76,
-        "nlsr_weight": 21,
-        "start": "PADUA",
-        "end": "GOETTINGEN"
-    },
-    {
         "id": 78,
         "nlsr_weight": 5,
         "start": "WASEDA",
         "end": "OSAKA"
     },
     {
-        "id": 79,
-        "nlsr_weight": 136,
-        "start": "GOETTINGEN",
-        "end": "OSAKA"
-    },
-    {
         "id": 80,
         "nlsr_weight": 36,
         "start": "ANYANG",
-        "end": "OSAKA"
-    },
-    {
-        "id": 81,
-        "nlsr_weight": 63,
-        "start": "TONGJI",
         "end": "OSAKA"
     },
     {
@@ -246,12 +204,6 @@
         "end": "ANYANG"
     },
     {
-        "id": 100,
-        "nlsr_weight": 38,
-        "start": "TNO",
-        "end": "GOETTINGEN"
-    },
-    {
         "id": 101,
         "nlsr_weight": 38,
         "start": "TNO",
@@ -272,7 +224,7 @@
     {
         "id": 104,
         "nlsr_weight": 150,
-        "start": "UCLACS",
+        "start": "UCLA",
         "end": "MSU"
     },
     {
@@ -286,12 +238,6 @@
         "nlsr_weight": 70,
         "start": "ANYANG",
         "end": "MSU"
-    },
-    {
-        "id": 116,
-        "nlsr_weight": 45,
-        "start": "CNIC",
-        "end": "OSAKA"
     },
     {
         "id": 117,
@@ -376,12 +322,6 @@
         "nlsr_weight": 17,
         "start": "URJC",
         "end": "CORUNA"
-    },
-    {
-        "id": 142,
-        "nlsr_weight": 4,
-        "start": "ANYANG",
-        "end": "GIST"
     },
     {
         "id": 144,
@@ -540,18 +480,6 @@
         "end": "UCLACS"
     },
     {
-        "id": 174,
-        "nlsr_weight": 18,
-        "start": "TONGJI",
-        "end": "CNIC"
-    },
-    {
-        "id": 175,
-        "nlsr_weight": 33,
-        "start": "ANYANG",
-        "end": "CNIC"
-    },
-    {
         "id": 176,
         "nlsr_weight": 16,
         "start": "CSU",
@@ -568,5 +496,89 @@
         "nlsr_weight": 100,
         "start": "OSAKA",
         "end": "ARIZONA"
+    },
+    {
+        "id": 179,
+        "nlsr_weight": 60,
+        "start": "BERN",
+        "end": "WU"
+    },
+    {
+        "id": 180,
+        "nlsr_weight": 80,
+        "start": "CORUNA",
+        "end": "WU"
+    },
+    {
+        "id": 181,
+        "nlsr_weight": 45,
+        "start": "SAVI",
+        "end": "LIP6"
+    },
+    {
+        "id": 182,
+        "nlsr_weight": 18,
+        "start": "BERN",
+        "end": "LIP6"
+    },
+    {
+        "id": 183,
+        "nlsr_weight": 18,
+        "start": "MEMPHIS",
+        "end": "SRRU"
+    },
+    {
+        "id": 184,
+        "nlsr_weight": 80,
+        "start": "MEMPHIS",
+        "end": "MML1"
+    },
+    {
+        "id": 185,
+        "nlsr_weight": 75,
+        "start": "WU",
+        "end": "MML1"
+    },
+    {
+        "id": 186,
+        "nlsr_weight": 35,
+        "start": "LIP6",
+        "end": "MML2"
+    },
+    {
+        "id": 187,
+        "nlsr_weight": 25,
+        "start": "TNO",
+        "end": "MML2"
+    },
+    {
+        "id": 188,
+        "nlsr_weight": 2,
+        "start": "TNO",
+        "end": "DELFT"
+    },
+    {
+        "id": 189,
+        "nlsr_weight": 15,
+        "start": "QUB",
+        "end": "DELFT"
+    },
+    {
+        "id": 190,
+        "nlsr_weight": 9,
+        "start": "LIP6",
+        "end": "DELFT"
+    },
+    {
+        "id": 191,
+        "nlsr_weight": 60,
+        "start": "WU",
+        "end": "DELFT"
+    },
+    {
+        "id": 192,
+        "nlsr_weight": 15,
+        "start": "PADUA",
+        "end": "DELFT"
     }
 ]
