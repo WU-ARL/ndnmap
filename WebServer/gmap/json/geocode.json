@@ -1,4 +1,22 @@
 {
+    "IIITH": {
+        "name": "International Institute of Information Technology, Hyderabad, India",
+        "shortname": "IIITH",
+        "site": "http://ndntestbed.iiit.ac.in:80/",
+        "https": "http://ndntestbed.iiit.ac.in:443/",
+	"ip_addresses": [ "14.139.82.16" ],
+	"hr_angle": "3.00582605076987",
+	"hr_radius": "15.9760646783892",
+        "backbone": false,
+        "ws-tls": true,
+        "prefix": "ndn:/ndn/in/ac/iiith",
+        "fch-enabled": true,
+        "ndn-up": true,
+	"neighbors": [],
+	"memsize": "8G",
+        "_real_position": [ 17.4456, 78.3497 ],
+        "position": [ 17.4456, 78.3497 ]
+    },
     "MML1": {
         "name": "Athens University of Economics and Business, Greece",
         "shortname": "MML1",
@@ -22,7 +40,7 @@
         "shortname": "MML2",
         "site": "http://mmlab-aueb-2.mmlab.edu.gr:80/",
         "https": "http://mmlab-aueb-2.mmlab.edu.gr:443/",
-	"ip_addresses": [ "195.251.234.11" ],
+	"ip_addresses": [ "195.251.234.12" ],
 	"hr_angle": "3.01597",
 	"hr_radius": "14.1226",
         "backbone": false,
@@ -155,24 +173,6 @@
 	"memsize": "8G",
         "_real_position": [ 40.10260390, -88.23171080000002 ],
         "position": [ 40.60260390, -88.23171080000002 ]
-    },
-    "UCLACS": {
-        "name": "University of California, Los Angeles",
-        "shortname": "UCLACS",
-        "site": "http://spurs.cs.ucla.edu:80/",
-        "https": "https://spurs.cs.ucla.edu:443/",
-	"ip_addresses": [ "131.179.196.46" ],
-	"hr_angle": "2.99910",
-	"hr_radius": "16.5866",
-        "backbone": false,
-        "ws-tls": true,
-        "prefix": "ndn:/ndn/edu/ucla/cs",
-        "fch-enabled": false,
-        "ndn-up": true,
-	"neighbors": [],
-	"memsize": "2G",
-        "_real_position": [ 34.07282250, -118.43873980 ],
-        "position": [ 35.5, -120 ]
     },
     "UCLA": {
         "name": "University of California, Los Angeles",
@@ -398,8 +398,8 @@
         "ndn-up": true,
 	"neighbors": [],
 	"memsize": "16G",
-        "position": [ 34.3, 135.7193],
-        "_real_position": [ 34.72, 135.5193]
+        "_real_position": [ 34.72, 135.5193],
+        "position": [ 34.3, 135.7193]
     },
     "MINHO": {
         "name": "University oh Minho",
@@ -416,6 +416,7 @@
         "ndn-up": false,
 	"neighbors": [],
 	"memsize": "4G",
+        "_real_position": [ 41.8, -8.2],
         "position": [ 41.8, -8.2]
     },
     "UFBA": {

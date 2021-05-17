@@ -366,12 +366,6 @@
         "end": "MUMBAI_AWS"
     },
     {
-        "id": 153,
-        "nlsr_weight": 25,
-        "start": "UCLACS",
-        "end": "ARIZONA"
-    },
-    {
         "id": 155,
         "nlsr_weight": 75,
         "start": "WU",
@@ -400,12 +394,6 @@
         "nlsr_weight": 15,
         "start": "AVEIRO",
         "end": "URJC"
-    },
-    {
-        "id": 160,
-        "nlsr_weight": 30,
-        "start": "UCLACS",
-        "end": "WU"
     },
     {
         "id": 161,
@@ -472,12 +460,6 @@
         "nlsr_weight": 30,
         "start": "UCLA",
         "end": "WU"
-    },
-    {
-        "id": 173,
-        "nlsr_weight": 1,
-        "start": "UCLA",
-        "end": "UCLACS"
     },
     {
         "id": 176,
@@ -580,5 +562,23 @@
         "nlsr_weight": 15,
         "start": "PADUA",
         "end": "DELFT"
+    },
+    {
+        "id": 193,
+        "nlsr_weight": 90,
+        "start": "URJC",
+        "end": "IIITH"
+    },
+    {
+        "id": 194,
+        "nlsr_weight": 90,
+        "start": "PADUA",
+        "end": "IIITH"
+    },
+    {
+        "id": 195,
+        "nlsr_weight": 40,
+        "start": "MUMBAI_AWS",
+        "end": "IIITH"
     }
 ]
