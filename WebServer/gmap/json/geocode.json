@@ -532,7 +532,7 @@
         "backbone": false,
         "ws-tls": false,
         "prefix": "ndn:/ndn/mx/uaslp",
-        "fch-enabled": true,
+        "fch-enabled": false,
         "ndn-up": true,
 	"neighbors": [],
 	"memsize": "8B",
