@@ -154,7 +154,7 @@
 	"neighbors": [],
 	"memsize": "4G",
         "_real_position": [ 42.10260390, -80.23171080000002 ],
-        "position": [ 42.50260390, -83.4 ]
+        "position": [  42.30260390, -83.7 ]
     },
     "UIUC": {
         "name": "University of Illinois, Urbana-Champaign",
@@ -468,7 +468,7 @@
         "ndn-up": true,
 	"neighbors": [],
 	"memsize": "4G",
-        "position": [ 52.05858, 8.0]
+        "position": [  52.0, 4.4 ]
     },
     "TNO": {
         "name": "Netherlands Organization for Applied Scientific Research",
